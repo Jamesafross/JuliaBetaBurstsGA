@@ -1,5 +1,5 @@
 
-using DifferentialEquations,Random,Parameters,Distances,Dates,MAT
+using DifferentialEquations,Random,Parameters,Dates,MAT,DelimitedFiles,JSON3
 
 const project_root = @__DIR__
 const julia_code_dir = joinpath(project_root, "julia_code")
@@ -11,15 +11,14 @@ const utils_dir  = joinpath(julia_code_dir, "utils")
 const ga_dir     = joinpath(julia_code_dir, "genetic_algorithm")
 const nmm_dir    = joinpath(julia_code_dir, "neural_mass_model")
 
+const meg_data_dir   = joinpath(project_root,"meg_data")
+const ga_data_dir = joinpath(project_root,"GA_data")
+
+const PENALTY_FITNESS = 1e9  
 
 include(joinpath(utils_dir, "load_config.jl"))
 
-
-#include(joinpath(ga_dir, "files.jl"))
-#include(joinpath(nmm_dir, "files.jl"))
-
 cfg = load_config()
-
 
 include(joinpath(julia_code_dir,"structures.jl"))
 

@@ -59,11 +59,12 @@ function [burst_dur, burst_pow, num_bursts] = run_hmm_on_population(popcurrent_p
 
     [~, base_name, ~] = fileparts(mat_path);
 
-    dur_file  = fullfile(output_path, [base_name '_Burst_Duration.txt']);
-    pow_file  = fullfile(output_path, [base_name '_Burst_Power.txt']);
-    num_file  = fullfile(output_path, [base_name '_Num_Bursts.txt']);
+    dur_file  = fullfile(output_path, [base_name '_burst_duration.txt']);
+    pow_file  = fullfile(output_path, [base_name '_burst_power.txt']);
+    num_file  = fullfile(output_path, [base_name '_num_bursts.txt']);
 
-    writematrix(burst_dur,  dur_file);
-    writematrix(burst_pow,  pow_file);
-    writematrix(num_bursts, num_file);
+  
+    writematrix(burst_dur,  dur_file, 'Delimiter', ' ');
+    writematrix(burst_pow,  pow_file, 'Delimiter', ' ');
+    writematrix(num_bursts, num_file, 'Delimiter', ' ');
 end

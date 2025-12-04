@@ -1,9 +1,12 @@
 [ga]
 num_generations = 100
-population_size = 20
+population_size = 100
 mutation_rate = 0.05
 crossover_rate = 0.8
 num_trials = 100
+n_elites_min = 15
+n_elites_mean = 5
+
 
 [solver]
 dt = 0.01

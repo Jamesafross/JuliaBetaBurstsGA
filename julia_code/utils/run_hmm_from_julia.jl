@@ -26,7 +26,7 @@ function run_hmm_from_julia(popcurrent_path::AbstractString,
     println("MATLAB -batch command:\n", mat_cmd, "\n")
 
     # Call MATLAB via your safe wrapper
-    run(`/home/james/bin/matlab_safe -nodisplay -nosplash -batch $mat_cmd`)
+    run(`matlab -nodisplay -nosplash -batch $mat_cmd`)
 
     println("[$(now())] MATLAB finished.")
 

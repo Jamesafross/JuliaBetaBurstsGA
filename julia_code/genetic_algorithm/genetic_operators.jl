@@ -38,3 +38,23 @@ function crossover_intermediate(p1::Vector{Float64},
 
     return c1, c2
 end
+
+
+function mutate(ph::Phenotype,gen::Int;
+                mutation_rate::Float64 = 0.1,
+                mutation_strength::Float64 = 0.1)::Phenotype
+
+    # copy encoded params
+    chromosome_new = copy(ph.chromosome)
+
+    @inbounds for i in eachindex(chromosome_new)
+        if rand() < mutation_rate
+            chromosome_new[i] = clamp(chromosome_new[i] + randn() * mutation_strength, 0.0, 1.0)
+        end
+    end
+
+
+
+    phenotype_new = from_chromosome_phenotype(chromosom,gen)
+    return phenotype_new
+end
