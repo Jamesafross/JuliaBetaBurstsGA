@@ -1,3 +1,47 @@
+function make_children(parents::Vector{Phenotype},
+                       gen::Int,
+                       n_children::Int;
+                       pc::Float64 = 0.9,
+                       mutation_rate::Float64 = 0.1,
+                       mutation_strength::Float64 = 0.1)::Vector{Phenotype}
+
+    @assert length(parents) ≥ 2 "Need at least two parents for crossover"
+
+    children = Vector{Phenotype}()
+    sizehint!(children, n_children)
+
+    n_parents = length(parents)
+
+    while length(children) < n_children
+        # pick two distinct parents
+        i = rand(1:n_parents)
+        j = rand(1:n_parents)
+        i == j && continue
+
+        c1, c2 = crossover(parents[i], parents[j], gen; pc = pc)
+
+        # mutate and add first child
+        c1m = mutate(c1, gen;
+                     mutation_rate = mutation_rate,
+                     mutation_strength = mutation_strength)
+        push!(children, c1m)
+
+        # stop if we've hit the target
+        if length(children) ≥ n_children
+            break
+        end
+
+        # mutate and add second child
+        c2m = mutate(c2, gen;
+                     mutation_rate = mutation_rate,
+                     mutation_strength = mutation_strength)
+        push!(children, c2m)
+    end
+
+    return children
+end
+
+
 function crossover(p1::Phenotype, p2::Phenotype,gen::Int; pc = 0.9)
     #wrapper function for crossover 
     x1_child, x2_child = crossover_intermediate(p1.x, p2.x; pc = pc)
@@ -58,3 +102,5 @@ function mutate(ph::Phenotype,gen::Int;
     phenotype_new = from_chromosome_phenotype(chromosom,gen)
     return phenotype_new
 end
+
+

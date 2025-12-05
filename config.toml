@@ -6,7 +6,8 @@ crossover_rate = 0.8
 num_trials = 100
 n_elites_min = 15
 n_elites_mean = 5
-
+n_selected = 40
+n_children = 60
 
 [solver]
 dt = 0.01

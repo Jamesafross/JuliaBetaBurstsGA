@@ -60,3 +60,42 @@ function select_elites_mean(population::Vector{Phenotype},
 end
 
 
+function select_top_min(population::Vector{Phenotype})::Tuple{Phenotype, Int}
+    @assert !isempty(population) "Population is empty"
+    @assert all(!isempty(ph.fitness_history) for ph in population) "Empty fitness_history found"
+
+    best_idx = 1
+    best_val = minimum(population[1].fitness_history)
+
+    @inbounds for i in 2:length(population)
+        m = minimum(population[i].fitness_history)
+        if m < best_val
+            best_val = m
+            best_idx = i
+        end
+    end
+
+    return population[best_idx], best_idx
+end
+
+function select_top_mean(population::Vector{Phenotype};
+                         min_history_len::Int = 5
+)::Tuple{Union{Nothing,Phenotype}, Union{Nothing,Int}}
+
+    best_ph   = nothing::Union{Nothing,Phenotype}
+    best_idx  = nothing::Union{Nothing,Int}
+    best_mean = Inf
+
+    @inbounds for (i, ph) in enumerate(population)
+        if length(ph.fitness_history) ≥ min_history_len
+            m = mean(ph.fitness_history)
+            if m < best_mean
+                best_mean = m
+                best_ph   = ph
+                best_idx  = i
+            end
+        end
+    end
+
+    return best_ph, best_idx
+end

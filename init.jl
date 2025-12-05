@@ -43,9 +43,14 @@ println(cfg)
 logger_init(project_root)
 
 #ga init: 
+
 pop_size = cfg["ga"]["population_size"]
 num_trials = cfg["ga"]["num_trials"]
 num_generations = cfg["ga"]["num_generations"]
+n_elites_min = cfg["ga"]["n_elites_min"]
+n_elites_mean = cfg["ga"]["n_elites_mean"]
+n_selected = cfg["ga"]["n_selected"]
+n_children = cfg["ga"]["n_children"]
 
 
 # solver stuff:
@@ -56,5 +61,10 @@ buffer_period = cfg["solver"]["buffer_period"]
 time_max = 78000 + buffer_period
 time_span = (0.0, time_max)
 time_range = collect(buffer_period+saveat:saveat:time_max)
+
+
+elites_total = n_elites_min + n_elites_mean
+
+@assert elites_total + n_children <= pop_size
 
 
