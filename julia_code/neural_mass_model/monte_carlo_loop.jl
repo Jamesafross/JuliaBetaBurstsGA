@@ -15,11 +15,12 @@ function monte_carlo_loop(
 
     # Same as before
 
-    u0 = zeros(14)
-    u0[13] = randn()
-    u0[14] = randn()
+   
 
-    for j = 1:mc_trials
+    Threads.@threads for j = 1:mc_trials
+         u0 = zeros(14)
+        u0[13] = randn()
+        u0[14] = randn()
         pop_current[j, :] = run_mass_model(u0, dt, time_range, model_parameters, time_span)
     end
 

@@ -10,7 +10,7 @@ n_selected = 40
 n_children = 60
 
 [solver]
-dt = 0.01
+dt = 0.02
 buffer_period = 2000
 sampling_rate = 100
 

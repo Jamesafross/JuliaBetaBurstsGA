@@ -1,5 +1,5 @@
 
-using DifferentialEquations,Random,Parameters,Dates,MAT,DelimitedFiles,JSON3
+using DifferentialEquations,Random,Parameters,Dates,MAT,DelimitedFiles,JSON3, Base.Threads, ProgressMeter,Statistics
 
 const project_root = @__DIR__
 const julia_code_dir = joinpath(project_root, "julia_code")
@@ -15,6 +15,8 @@ const meg_data_dir   = joinpath(project_root,"meg_data")
 const ga_data_dir = joinpath(project_root,"GA_data")
 
 const PENALTY_FITNESS = 1e9  
+
+const MATLAB = "/usr/local/bin/matlab"
 
 include(joinpath(utils_dir, "load_config.jl"))
 

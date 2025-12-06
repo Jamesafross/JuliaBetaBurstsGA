@@ -1,1 +1,47 @@
-2025-12-05 13:01:05 [INFO] Starting generation 1
+2025-12-05 23:23:49 [INFO] Starting generation 1
+2025-12-05 23:23:49 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype1
+2025-12-05 23:24:01 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype1
+2025-12-05 23:24:01 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype1
+2025-12-05 23:27:05 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype1
+2025-12-05 23:27:06 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype2
+2025-12-05 23:27:17 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype2
+2025-12-05 23:27:17 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype2
+2025-12-05 23:30:58 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype2
+2025-12-05 23:30:58 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype3
+2025-12-05 23:31:10 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype3
+2025-12-05 23:31:10 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype3
+2025-12-05 23:35:17 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype3
+2025-12-05 23:35:17 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype4
+2025-12-05 23:35:28 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype4
+2025-12-05 23:35:28 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype4
+2025-12-05 23:38:53 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype4
+2025-12-05 23:38:53 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype5
+2025-12-05 23:39:04 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype5
+2025-12-05 23:39:04 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype5
+2025-12-05 23:43:40 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype5
+2025-12-05 23:43:40 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype6
+2025-12-05 23:43:52 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype6
+2025-12-05 23:43:52 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype6
+2025-12-05 23:48:23 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype6
+2025-12-05 23:48:23 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype7
+2025-12-05 23:48:35 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype7
+2025-12-05 23:48:35 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype7
+2025-12-05 23:52:56 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype7
+2025-12-05 23:52:56 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype8
+2025-12-05 23:53:09 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype8
+2025-12-05 23:53:09 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype8
+2025-12-05 23:57:18 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype8
+2025-12-05 23:57:18 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype9
+2025-12-05 23:57:31 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype9
+2025-12-05 23:57:31 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype9
+2025-12-06 00:01:53 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype9
+2025-12-06 00:01:53 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype10
+2025-12-06 00:02:05 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype10
+2025-12-06 00:02:05 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype10
+2025-12-06 00:06:14 [INFO] Computing fitness for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype10
+2025-12-06 00:06:14 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype11
+2025-12-06 00:06:15 [INFO] Monte Carlo loop FAILED for /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype11: CompositeException(Any[TaskFailedException(Task (failed) @0x00007fe40a8bc790), TaskFailedException(Task (failed) @0x00007fe40a8bc880), TaskFailedException(Task (failed) @0x00007fe40a8bc970), TaskFailedException(Task (failed) @0x00007fe40a8bca60), TaskFailedException(Task (failed) @0x00007fe40a8bcb50), TaskFailedException(Task (failed) @0x00007fe40a8bcc40), TaskFailedException(Task (failed) @0x00007fe40a8bcd30), TaskFailedException(Task (failed) @0x00007fe40a8bce20)])
+2025-12-06 00:06:15 [INFO] MC stacktrace: Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing}(0x00007fe45f5a5b88), Ptr{Nothing}(0x00007fe45f551f9c), Ptr{Nothing}(0x00007fe45f59e2e5), Ptr{Nothing}(0x00007fe45f545079), Ptr{Nothing}(0x00007fe45f547577), Ptr{Nothing}(0x00007fe4de276444), Ptr{Nothing}(0x00007fe4de275d34), Ptr{Nothing}(0x00007fe4de276a23), Ptr{Nothing}(0x00007fe4de277c62), Base.InterpreterIP in top-level CodeInfo for Main at statement 11, Ptr{Nothing}(0x00007fe4de295742), Ptr{Nothing}(0x00007fe4de295bf1), Ptr{Nothing}(0x00007fe4de2964f5), Ptr{Nothing}(0x00007fe4de296b31), Ptr{Nothing}(0x00007fe4bd256352), Ptr{Nothing}(0x00007fe4bdace5af), Ptr{Nothing}(0x00007fe4bee1592a), Ptr{Nothing}(0x00007fe4bf052f0b), Ptr{Nothing}(0x00007fe4be43b533), Ptr{Nothing}(0x00007fe4bce06a65), Ptr{Nothing}(0x00007fe4bec7dac3), Ptr{Nothing}(0x00007fe4de2bc59e), Ptr{Nothing}(0x00007fe4de2bd279), Ptr{Nothing}(0x0000000000401088), Ptr{Nothing}(0x00007fe4dee375b4), Ptr{Nothing}(0x00007fe4dee37667), Ptr{Nothing}(0x00000000004010b8)]
+2025-12-06 00:06:15 [INFO] Starting Monte Carlo loop for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype12
+2025-12-06 00:06:27 [INFO] Saving pop_current.mat for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype12
+2025-12-06 00:06:27 [INFO] Running HMM for phenotype in /home/thor/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype12
