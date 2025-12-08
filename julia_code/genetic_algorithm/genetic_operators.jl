@@ -44,11 +44,11 @@ end
 
 function crossover(p1::Phenotype, p2::Phenotype,gen::Int; pc = 0.9)
     #wrapper function for crossover 
-    x1_child, x2_child = crossover_intermediate(p1.x, p2.x; pc = pc)
+    x1_child, x2_child = crossover_intermediate(p1.chromosome, p2.chromosome; pc = pc)
 
     x1_child_phenotype = from_chromosome_phenotype(x1_child,gen)
     x2_child_phenotype = from_chromosome_phenotype(x2_child,gen)
-    return x1_child_phenotype,x2_child_phenotype
+    return x1_child_phenotype, x2_child_phenotype
 end
 
 
@@ -99,7 +99,7 @@ function mutate(ph::Phenotype,gen::Int;
 
 
 
-    phenotype_new = from_chromosome_phenotype(chromosom,gen)
+    phenotype_new = from_chromosome_phenotype(chromosome_new,gen)
     return phenotype_new
 end
 

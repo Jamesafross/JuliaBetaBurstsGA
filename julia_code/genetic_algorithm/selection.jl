@@ -15,7 +15,7 @@ function tournament_select(population::Vector{Phenotype},
         # compete with k-1 others
         for _ in 2:k
             challenger = rand(population)
-            if challenger.fitness < best.fitness   # lower is better
+            if minimum(challenger.fitness_history) < minimum(best.fitness_history)   # lower is better
                 best = challenger
             end
         end
