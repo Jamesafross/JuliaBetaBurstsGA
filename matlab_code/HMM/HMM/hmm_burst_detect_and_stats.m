@@ -47,6 +47,7 @@ for reg = 1:numTrials % 78 AAL Atlas locations
     disp(['Calculating HMM output for subject ',num2str(1), ', region ',num2str(reg)])
     VEf_b_reg = data_new(reg,:); % single channel data
     data_reg = normalize(VEf_b_reg'); % normalise!!
+
     [hmm, Gamma] = hmmmar(data_reg,T_new,options); % hmm inference
     hmm_all_reg{reg} = hmm;
     Gamma_all_reg{reg} = Gamma;

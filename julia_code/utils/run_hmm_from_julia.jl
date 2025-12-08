@@ -59,5 +59,5 @@ function smoke_test_matlab(pop_path::AbstractString,
 
     println("MATLAB command:\n", mat_cmd, "\n")
 
-    run(`matlab -nodisplay -nosplash -batch $mat_cmd`)
+    run(`LD_PRELOAD=/usr/lib64/libstdc++.so.6 /usr/local/MATLAB/R2024b/bin/matlab -nodisplay -nosplash -batch $mat_cmd`)
 end
