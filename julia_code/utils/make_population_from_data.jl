@@ -12,12 +12,12 @@ function make_population_from_data(restart_gen::Integer,pop_size::Integer)
         end
 
         ph = Phenotype(
-            params           = phen_json.params,
-            param_vec        = phen_json.param_vec,
-            chromosome       = phen_json.chromosome,
-            fitness_history  = phen_json.fitness_history,
-            generations      = phen_json.generations,
-            birth_generation = phen_json.birth_generation,
+            phen_json.params,
+            phen_json.param_vec,
+            phen_json.chromosome,
+            phen_json.fitness_history,
+            phen_json.generations,
+            phen_json.birth_generation,
         )
 
         push!(population, ph)
