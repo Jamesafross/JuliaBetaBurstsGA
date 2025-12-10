@@ -1,5 +1,7 @@
-function make_population_from_data(gen_dir::AbstractString, pop_size::Integer)
-    # Preallocate for speed & type stability
+function make_population_from_data(restart_gen,pop_size::Integer)
+
+    gen_dir = joinpath(project_root, "GA_data", "Gen$(restart_gen)")
+   
     population = Vector{Phenotype}()
 
     for i in 1:pop_size
