@@ -31,3 +31,19 @@ function from_chromosome_phenotype(chromosome,birth_gen)
         birth_gen,
     )
 end
+
+function from_file_phenotype(chromosome,fitness_history,generations,birth_gen)
+
+
+    p = decode_params(chromosome)
+    v = params_to_vector(p)
+
+    return Phenotype(
+        p,
+        v,
+        chromosome,
+        fitness_history,
+        generations,
+        birth_gen,
+    )
+end

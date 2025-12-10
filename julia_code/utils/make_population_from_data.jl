@@ -11,14 +11,8 @@ function make_population_from_data(restart_gen::Integer,pop_size::Integer)
             JSON3.read(io)
         end
 
-        ph = Phenotype(
-            phen_json.params,
-            phen_json.param_vec,
-            phen_json.chromosome,
-            phen_json.fitness_history,
-            phen_json.generations,
-            phen_json.birth_generation,
-        )
+    
+        ph = from_file_phenotype(phen_json.chromosome,phen_json.fitness_history,phen_json.generations,phen_json.birth_generation)
 
         push!(population, ph)
     end
