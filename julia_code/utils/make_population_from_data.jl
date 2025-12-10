@@ -1,4 +1,4 @@
-function make_population_from_data(restart_gen,pop_size::Integer)
+function make_population_from_data(restart_gen::Integer,pop_size::Integer)
 
     gen_dir = joinpath(project_root, "GA_data", "Gen$(restart_gen)")
    

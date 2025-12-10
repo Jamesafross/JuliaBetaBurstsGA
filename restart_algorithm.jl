@@ -1,6 +1,6 @@
 include("init.jl")
 
-restart_gen = 1;
+restart_gen = 11;
 
 function restart_ga!(
     pop_size,
@@ -16,7 +16,7 @@ function restart_ga!(
 
     # generate initial population
    
-    population::Vector{Phenotype} = restart_algorithm(restart_gen-1,pop_size)
+    population::Vector{Phenotype} = make_population_from_data(restart_gen-1,pop_size)
 
     for gen in restart_gen:num_generations
 
