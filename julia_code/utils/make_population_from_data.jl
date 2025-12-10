@@ -12,7 +12,13 @@ function make_population_from_data(restart_gen::Integer,pop_size::Integer)
         end
 
     
-        ph = from_file_phenotype(phen_json.chromosome,phen_json.fitness_history,phen_json.generations,phen_json.birth_generation)
+        chromosome       = Float64.(phen_json.chromosome)
+        fitness_history  = Float64.(phen_json.fitness_history)
+        generations      = Int(phen_json.generations)
+        birth_generation = Int(phen_json.birth_generation)
+
+        ph = from_file_phenotype(chromosome, fitness_history, generations, birth_generation)
+
 
         push!(population, ph)
     end
