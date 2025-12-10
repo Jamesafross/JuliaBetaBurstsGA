@@ -16,45 +16,49 @@ function restart_ga!(
 
     # generate initial population
    
-    population::Vector{Phenotype} = restart_algorithm(restart_gen,pop_size)
+    population::Vector{Phenotype} = restart_algorithm(restart_gen-1,pop_size)
 
     for gen in restart_gen:num_generations
 
-        log_info("Starting generation $gen")
+        if gen != restart_gen
 
-        gen_dir = joinpath(project_root, "GA_data", "Gen$(gen)")
-        mkpath(gen_dir)
+            log_info("Starting generation $gen")
 
-        for j in 1:pop_size
-            phenotype = population[j]
+            gen_dir = joinpath(project_root, "GA_data", "Gen$(gen)")
+            mkpath(gen_dir)
 
-            phenotype_dir = joinpath(gen_dir, "Phenotype$(j)")
+            for j in 1:pop_size
+                phenotype = population[j]
 
-            fitness = evaluate_phenotype!(
-                phenotype,
-                phenotype_dir,
-                dt,
-                time_range,
-                time_span,
-                num_trials,
-                meg_data_dir,
-                sampling_rate,
-            )
+                phenotype_dir = joinpath(gen_dir, "Phenotype$(j)")
 
-            push!(phenotype.fitness_history, fitness)
+                fitness = evaluate_phenotype!(
+                    phenotype,
+                    phenotype_dir,
+                    dt,
+                    time_range,
+                    time_span,
+                    num_trials,
+                    meg_data_dir,
+                    sampling_rate,
+                )
 
-            save_phenotype_json(
-                phenotype,
-                joinpath(phenotype_dir, "phenotype$(j).json"),
-            )
+                push!(phenotype.fitness_history, fitness)
+
+                save_phenotype_json(
+                    phenotype,
+                    joinpath(phenotype_dir, "phenotype$(j).json"),
+                )
+            end
+
+            log_info("Finished simulations (generation $gen)")
+
+            top_min,  idx_min  = select_top_min(population)
+            top_mean, idx_mean = select_top_mean(population; min_history_len = 5)
+
+            save_generation_info(gen, gen_dir, top_min, idx_min, top_mean, idx_mean)
+
         end
-
-        log_info("Finished simulations (generation $gen)")
-
-        top_min,  idx_min  = select_top_min(population)
-        top_mean, idx_mean = select_top_mean(population; min_history_len = 5)
-
-        save_generation_info(gen, gen_dir, top_min, idx_min, top_mean, idx_mean)
 
         log_info("Beginning selection process (generation $gen)")
 
