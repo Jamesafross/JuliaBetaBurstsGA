@@ -53,6 +53,7 @@ n_elites_min = cfg["ga"]["n_elites_min"]
 n_elites_mean = cfg["ga"]["n_elites_mean"]
 n_selected = cfg["ga"]["n_selected"]
 n_children = cfg["ga"]["n_children"]
+n_elite_offspring = cfg["ga"]["n_elite_offspring"]
 
 
 # solver stuff:
@@ -60,13 +61,32 @@ const sampling_rate = cfg["solver"]["sampling_rate"]
 saveat = 1000/sampling_rate
 dt = cfg["solver"]["dt"]
 buffer_period = cfg["solver"]["buffer_period"]
-time_max = 78000 + buffer_period
+time_max = 60000 + buffer_period
 time_span = (0.0, time_max)
 time_range = collect(buffer_period+saveat:saveat:time_max)
+
+elite_time_max = 100000+buffer_period
+elite_time_span = (0.0, elite_time_max)
+elite_num_trials = 150
+elite_time_range = collect(buffer_period+saveat:saveat:elite_time_max)
+
+progress_state = ProgressState(Inf,0)
 
 
 elites_total = n_elites_min + n_elites_mean
 
 @assert elites_total + n_children <= pop_size
+
+
+
+const solver_parameters = SolverParameters(
+    dt,
+    time_span,
+    time_range,
+    num_trials,
+    elite_time_span,
+    elite_time_range,
+    elite_num_trials)
+
 
 

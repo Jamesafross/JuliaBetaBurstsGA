@@ -88,6 +88,22 @@ mutable struct Phenotype
     chromosome::Vector{Float64}
     fitness_history::Vector{Float64}  
     generations::Int   
-    birth_generation::Int               
+    birth_generation::Int      
+    elite::Bool         
 end
 
+
+struct SolverParameters
+    dt::Float64
+    time_span::Tuple{Float64, Int}
+    time_range::AbstractVector{Float64}
+    num_trials::Int
+    elite_time_span::Tuple{Float64, Int}
+    elite_time_range::AbstractVector{Float64}
+    elite_num_trials::Int
+end
+
+mutable struct ProgressState
+    best_so_far::Float64
+    stagnation::Int
+end

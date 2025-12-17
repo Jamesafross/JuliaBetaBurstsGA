@@ -13,6 +13,7 @@ function random_phenotype(;birth_gen::Int = 0)
         Float64[],
         0,
         birth_gen,
+        false
     )
 end
 
@@ -29,6 +30,7 @@ function from_chromosome_phenotype(chromosome,birth_gen)
         Float64[],
         0,
         birth_gen,
+        false
     )
 end
 
@@ -45,5 +47,6 @@ function from_file_phenotype(chromosome,fitness_history,generations,birth_gen)
         fitness_history,
         generations,
         birth_gen,
+        false
     )
 end

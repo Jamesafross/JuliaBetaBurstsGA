@@ -44,7 +44,10 @@ function save_gen_summary(gen::Int,
                           top_min::Phenotype,
                           idx_min::Int,
                           top_mean::Union{Nothing, Phenotype},
-                          idx_mean::Union{Nothing, Int})
+                          idx_mean::Union{Nothing, Int};
+                          stagnation::Int,
+                          mutation_strength::Float64,
+                          mutation_rate::Float64)
 
     # helper to build a JSON-friendly block for a phenotype
     make_top_info(ph::Phenotype, idx::Int) = Dict(
@@ -61,9 +64,12 @@ function save_gen_summary(gen::Int,
         make_top_info(top_mean, idx_mean)
 
     gen_info = Dict(
-        "generation" => gen,
-        "top_min"    => top_min_info,
-        "top_mean"   => top_mean_info,
+        "generation"         => gen,
+        "stagnation"         => stagnation,
+        "mutation_rate"      => mutation_rate,
+        "mutation_strength"  => mutation_strength,
+        "top_min"            => top_min_info,
+        "top_mean"           => top_mean_info,
     )
 
     out_path = joinpath(project_dir, "gen_info.json")
@@ -96,4 +102,3 @@ function save_gen_summary(gen::Int,
 
     log_info("Appended generation $gen info to $out_path")
 end
-

@@ -21,40 +21,25 @@ function run_ga!(
         gen_dir = joinpath(project_root, "GA_data", "Gen$(gen)")
         mkpath(gen_dir)
 
-        for j in 1:pop_size
-            phenotype = population[j]
-
-            phenotype_dir = joinpath(gen_dir, "Phenotype$(j)")
-
-            fitness = evaluate_phenotype!(
-                phenotype,
-                phenotype_dir,
-                dt,
-                time_range,
-                time_span,
-                num_trials,
-                meg_data_dir,
-                sampling_rate,
-            )
-
-            push!(phenotype.fitness_history, fitness)
-
-            save_phenotype_json(
-                phenotype,
-                joinpath(phenotype_dir, "phenotype$(j).json"),
-            )
-        end
+        evaluate_generation!(population, gen_dir,solver_parameters,meg_data_dir,sampling_rate)
 
         log_info("Finished simulations (generation $gen)")
 
         top_min,  idx_min  = select_top_min(population)
         top_mean, idx_mean = select_top_mean(population; min_history_len = 5)
 
+        improved, best_gen = update_progress!(progress_state, top_min)
+
+        mutation_rate, mutation_strength = mutation_from_stagnation(progress_state.stagnation)
+
         save_gen_summary(gen,project_root,
                           top_min,
                           idx_min,
                           top_mean,
-                          idx_mean)
+                          idx_mean,
+                          progress_state.stagnation,
+                          mutation_strength,
+                          mutation_rate)
 
         save_generation_info(gen, gen_dir, top_min, idx_min, top_mean, idx_mean)
 
@@ -85,17 +70,30 @@ function run_ga!(
 
         # add elites
         append!(next_population, elites_min)
+        for ph in elites_min
+            ph.elite = true
+        end
+
         append!(next_population, elites_mean)
+
+        for ph in elites_mean
+            ph.elite = true
+        end
+
 
         log_info("Added $n_elites_total elites to next population")
 
         if length(elites_mean) > 1
             elite_offspring = make_children(elites_mean, gen, n_elite_offspring)
             append!(next_population,elite_offspring)
-            children = make_children(tournament_selected, gen, n_children-length(elite_offspring))
+            children = make_children(tournament_selected, gen, n_children-length(elite_offspring);pc = 0.9,
+                       mutation_rate = mutation_rate,
+                       mutation_strength = mutation_strength)
             
         else
-            children = make_children(tournament_selected, gen, n_children)
+            children = make_children(tournament_selected, gen, n_children;pc = 0.9,
+                       mutation_rate = mutation_rate,
+                       mutation_strength = mutation_strength)
 
         end
         

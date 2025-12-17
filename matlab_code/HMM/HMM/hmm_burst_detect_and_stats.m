@@ -31,7 +31,7 @@ no_states = 3;
 options = struct(); % Create options struct
 options.K = no_states;
 options.standardise = 1;
-options.verbose = 1;
+options.verbose = 0;
 options.Fs = Hz;
 options.order = 0;
 options.embeddedlags = -lags:lags; 
@@ -44,7 +44,7 @@ options.useParallel = 0;
 
 % HMM computation, one region at a time
 for reg = 1:numTrials % 78 AAL Atlas locations
-    disp(['Calculating HMM output for subject ',num2str(1), ', region ',num2str(reg)])
+   
     VEf_b_reg = data_new(reg,:); % single channel data
     data_reg = normalize(VEf_b_reg'); % normalise!!
     [hmm, Gamma] = hmmmar(data_reg,T_new,options); % hmm inference
