@@ -1,5 +1,5 @@
 
-using DifferentialEquations,Random,Parameters,Dates,MAT,DelimitedFiles,JSON3, Base.Threads, ProgressMeter,Statistics
+using DifferentialEquations,Random,Parameters,Dates,MAT,DelimitedFiles,JSON3, Base.Threads, ProgressMeter,Statistics,DSP,StatsBase,JLD2
 
 const project_root = @__DIR__
 const julia_code_dir = joinpath(project_root, "julia_code")
@@ -10,6 +10,7 @@ const hmmmar_dir = joinpath(matlab_code_dir, "HMM","HMM-MAR")
 const utils_dir  = joinpath(julia_code_dir, "utils")
 const ga_dir     = joinpath(julia_code_dir, "genetic_algorithm")
 const nmm_dir    = joinpath(julia_code_dir, "neural_mass_model")
+const thr_dir    = joinpath(julia_code_dir, "thresholding")
 
 const meg_data_dir   = joinpath(project_root,"meg_data")
 const ga_data_dir = joinpath(project_root,"GA_data")
@@ -34,6 +35,10 @@ end
 
 for file in sort(readdir(ga_dir))
     endswith(file, ".jl") && include(joinpath(ga_dir, file))
+end
+
+for file in sort(readdir(thr_dir))
+    endswith(file, ".jl") && include(joinpath(thr_dir, file))
 end
 
 

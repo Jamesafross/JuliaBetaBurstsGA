@@ -3,10 +3,7 @@ include("init.jl")
 function run_ga!(
     pop_size,
     num_generations,
-    dt,
-    time_range,
-    time_span,
-    num_trials,
+    solver_parameters,
     meg_data_dir,
     sampling_rate,
 )
@@ -123,10 +120,7 @@ end
 final_population = run_ga!(
     pop_size,
     num_generations,
-    dt,
-    time_range,
-    time_span,
-    num_trials,
+    solver_parameters,
     meg_data_dir,
     sampling_rate,
 )

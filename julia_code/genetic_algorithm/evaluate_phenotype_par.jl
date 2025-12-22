@@ -1,14 +1,3 @@
-# evaluation_pipeline.jl
-#
-# Generation-level evaluation:
-#   1) Monte Carlo + save pop_current.mat per phenotype
-#      - any MC/save failure => that phenotype is "skipped" (ok=false)
-#   2) Run MATLAB/HMM ONCE for the generation directory
-#      - runs if at least one phenotype succeeded (any(ok))
-#      - if HMM fails => everyone gets PENALTY_FITNESS
-#   3) Compute fitness per phenotype
-#      - only for phenotypes with ok=true
-#      - skipped phenotypes keep PENALTY_FITNESS
 
 function run_monte_carlo(
     ph::Phenotype,
@@ -21,9 +10,7 @@ function run_monte_carlo(
     return monte_carlo_loop(ph, dt, time_range, time_span, num_trials)
 end
 
-# ----------------------------
-# Stage 2a: Save pop_current.mat
-# ----------------------------
+
 function save_pop_current_mat(ph_dir::AbstractString, pop_current)
     mkpath(ph_dir)
     mat_path = joinpath(ph_dir, "pop_current.mat")
@@ -32,26 +19,27 @@ function save_pop_current_mat(ph_dir::AbstractString, pop_current)
     return mat_path
 end
 
-# ----------------------------
-# Stage 2b: Run HMM once per generation
-# ----------------------------
+function save_pop_current_jld2(ph_dir::AbstractString, pop_current)
+    mkpath(ph_dir)
+    path = joinpath(ph_dir, "pop_current.jld2")
+    log_info("Saving pop_current.jld2 -> $path")
+    @save path pop_current
+    return path
+end
+
 function run_hmm_for_generation(gen_dir::AbstractString, sampling_rate)
     log_info("Running generation-level HMM in $gen_dir")
     run_hmm_from_julia_par(gen_dir, sampling_rate)
     return nothing
 end
 
-# ----------------------------
-# Stage 3: Fitness (single phenotype)
-# ----------------------------
+
 function compute_fitness(ph_dir::AbstractString, meg_data_dir::AbstractString)::Float64
     log_info("Computing fitness in $ph_dir")
     return calculate_fitness(meg_data_dir, ph_dir)
 end
 
-# ----------------------------
-# Stage 1+2a: simulate + save for whole generation
-# ----------------------------
+
 function simulate_generation!(
     population::Vector{Phenotype},
     gen_dir::AbstractString,
@@ -103,9 +91,7 @@ function simulate_generation!(
     return ok
 end
 
-# ----------------------------
-# Stage 3: score generation (skip failed phenotypes)
-# ----------------------------
+
 function score_generation!(
     population::Vector{Phenotype},
     meg_data_dir::AbstractString,
@@ -158,9 +144,6 @@ end
     return fitnesses
 end
 
-# ----------------------------
-# Full pipeline
-# ----------------------------
 function evaluate_generation!(
     population::Vector{Phenotype},
     gen_dir::AbstractString,solver_parameters::SolverParameters,

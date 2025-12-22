@@ -44,7 +44,7 @@ function save_gen_summary(gen::Int,
                           top_min::Phenotype,
                           idx_min::Int,
                           top_mean::Union{Nothing, Phenotype},
-                          idx_mean::Union{Nothing, Int};
+                          idx_mean::Union{Nothing, Int},
                           stagnation::Int,
                           mutation_strength::Float64,
                           mutation_rate::Float64)
