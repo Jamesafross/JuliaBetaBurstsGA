@@ -86,6 +86,7 @@ function [burst_dur_all, burst_pow_all, num_bursts_all] = run_hmm_on_generation_
         catch ME
             warning('run_hmm_on_generation:Failed', ...
                     'Failed on %s: %s', mat_path, ME.message);
+            disp(['pop_current size: ' mat2str(size(pop_current))])
         end
     end
 end

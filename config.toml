@@ -1,13 +1,13 @@
 [ga]
-num_generations = 100
-population_size = 100
+num_generations = 1000
+population_size = 130
 mutation_rate = 0.05
-crossover_rate = 0.8
-num_trials = 65
+crossover_rate = 0.9
+num_trials = 80
 n_elites_min = 15
 n_elites_mean = 5
-n_selected = 40
-n_children = 60
+n_selected = 50
+n_children = 80
 n_elite_offspring = 10
 
 [solver]
@@ -16,7 +16,5 @@ buffer_period = 2000
 sampling_rate = 100
 
 
-[model]
-param_lower_bounds = [-1.0, 0.0, 0.2]
-param_upper_bounds = [1.0, 5.0, 2.0]
+
 

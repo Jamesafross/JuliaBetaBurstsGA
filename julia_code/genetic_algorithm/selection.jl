@@ -39,25 +39,43 @@ function select_elites_min(population::Vector{Phenotype}, n_elites_min::Int)::Ve
     return sorted[1:n_elites_min]
 end
 
-
 function select_elites_mean(population::Vector{Phenotype},
                             n_elites_mean::Int;
-                            min_history_len::Int = 5)::Vector{Phenotype}
+                            min_history_len::Int = 6,
+                            last_k::Int = 6
+)::Tuple{Vector{Phenotype}, Vector{Phenotype}}
+
     @assert n_elites_mean ≥ 0
 
-    # only consider phenotypes that have been evaluated for enough generations
-    candidates = filter(ph -> length(ph.fitness_history) ≥ min_history_len, population)
-
-    if isempty(candidates) || n_elites_mean == 0
-        return Phenotype[]  # no stable elites yet
+    if n_elites_mean == 0
+        return Phenotype[], population
     end
 
-    # don’t try to take more than we have
-    n_take = min(n_elites_mean, length(candidates))
+    # indices of candidates with enough history
+    cand_idx = [i for i in eachindex(population) if length(population[i].fitness_history) ≥ min_history_len]
 
-    sorted = sort(candidates; by = ph -> mean(ph.fitness_history))
-    return sorted[1:n_take]
+    if isempty(cand_idx)
+        return Phenotype[], population
+    end
+
+    n_take = min(n_elites_mean, length(cand_idx))
+
+    # sort candidate indices by mean of last_k fitness values
+    sort!(cand_idx; by = i -> begin
+        fh = population[i].fitness_history
+        k  = min(last_k, length(fh))
+        mean(@view fh[end-k+1:end])
+    end)
+
+    elite_idx = cand_idx[1:n_take]
+    elite_set = Set(elite_idx)
+
+    elites    = [population[i] for i in elite_idx]
+    remainder = [population[i] for i in eachindex(population) if !(i in elite_set)]
+
+    return elites, remainder
 end
+
 
 
 function select_top_min(population::Vector{Phenotype})::Tuple{Phenotype, Int}
@@ -79,7 +97,8 @@ function select_top_min(population::Vector{Phenotype})::Tuple{Phenotype, Int}
 end
 
 function select_top_mean(population::Vector{Phenotype};
-                         min_history_len::Int = 5
+                         min_history_len::Int = 6,
+                         last_k::Int = 6
 )::Tuple{Union{Nothing,Phenotype}, Union{Nothing,Int}}
 
     best_ph   = nothing::Union{Nothing,Phenotype}
@@ -87,8 +106,12 @@ function select_top_mean(population::Vector{Phenotype};
     best_mean = Inf
 
     @inbounds for (i, ph) in enumerate(population)
-        if length(ph.fitness_history) ≥ min_history_len
-            m = mean(ph.fitness_history)
+        fh = ph.fitness_history
+        if length(fh) ≥ min_history_len
+            # take mean over last_k entries (or fewer if you later relax min_history_len)
+            k = min(last_k, length(fh))
+            m = mean(@view fh[end-k+1:end])
+
             if m < best_mean
                 best_mean = m
                 best_ph   = ph

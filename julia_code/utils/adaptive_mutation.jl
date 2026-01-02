@@ -16,8 +16,8 @@ end
 
 function mutation_from_stagnation(stagnation::Int;
     rate0::Float64=0.05, strength0::Float64=0.05,
-    rate_max::Float64=0.25, strength_max::Float64=0.20,
-    s_soft::Int=5, s_hard::Int=15,
+    rate_max::Float64=0.5, strength_max::Float64=0.5,
+    s_soft::Int=3, s_hard::Int=25,
 )
     # dramatic drop on improvement
     if stagnation == 0

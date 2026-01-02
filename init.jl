@@ -66,13 +66,13 @@ const sampling_rate = cfg["solver"]["sampling_rate"]
 saveat = 1000/sampling_rate
 dt = cfg["solver"]["dt"]
 buffer_period = cfg["solver"]["buffer_period"]
-time_max = 60000 + buffer_period
+time_max = 70000 + buffer_period
 time_span = (0.0, time_max)
 time_range = collect(buffer_period+saveat:saveat:time_max)
 
-elite_time_max = 100000+buffer_period
+elite_time_max = 120000+buffer_period
 elite_time_span = (0.0, elite_time_max)
-elite_num_trials = 150
+elite_num_trials = 200
 elite_time_range = collect(buffer_period+saveat:saveat:elite_time_max)
 
 progress_state = ProgressState(Inf,0)

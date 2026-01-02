@@ -45,8 +45,10 @@ function run_ga!(
         # elites
         log_info("Selecting elites for generation $gen")
 
-        elites_min  = select_elites_min(population, n_elites_min)
-        elites_mean = select_elites_mean(population, n_elites_mean)
+        elites_mean, remainder_pop = select_elites_mean(population, n_elites_mean)
+
+        elites_min  = select_elites_min(remainder_pop, n_elites_min)
+       
 
         n_elites_total = length(elites_min) + length(elites_mean)
         log_info("Selected $(length(elites_min)) min-elites and $(length(elites_mean)) mean-elites (total $n_elites_total)")

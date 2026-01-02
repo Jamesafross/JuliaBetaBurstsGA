@@ -1,5 +1,522 @@
-2025-12-22 13:14:08 [INFO] Saving pop_current.jld2 -> /home/baldr/JuliaBetaBurstsGA/threshold_test_data/Phenotype1/pop_current.jld2
-2025-12-22 13:14:22 [INFO] Saving pop_current.jld2 -> /home/baldr/JuliaBetaBurstsGA/threshold_test_data/Phenotype2/pop_current.jld2
-2025-12-22 13:14:34 [INFO] Saving pop_current.jld2 -> /home/baldr/JuliaBetaBurstsGA/threshold_test_data/Phenotype3/pop_current.jld2
-2025-12-22 13:14:47 [INFO] Saving pop_current.jld2 -> /home/baldr/JuliaBetaBurstsGA/threshold_test_data/Phenotype4/pop_current.jld2
-2025-12-22 13:15:00 [INFO] Saving pop_current.jld2 -> /home/baldr/JuliaBetaBurstsGA/threshold_test_data/Phenotype5/pop_current.jld2
+2025-12-22 21:46:10 [INFO] Starting generation 1
+2025-12-22 21:46:10 [INFO] Phenotype1: Monte Carlo (elite=false)
+2025-12-22 21:46:10 [INFO] Starting Monte Carlo
+2025-12-22 21:46:18 [INFO] Phenotype1: Save pop_current.mat
+2025-12-22 21:46:18 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype1/pop_current.mat
+2025-12-22 21:46:18 [INFO] Phenotype2: Monte Carlo (elite=false)
+2025-12-22 21:46:18 [INFO] Starting Monte Carlo
+2025-12-22 21:46:24 [INFO] Phenotype2: Save pop_current.mat
+2025-12-22 21:46:24 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype2/pop_current.mat
+2025-12-22 21:46:24 [INFO] Phenotype3: Monte Carlo (elite=false)
+2025-12-22 21:46:24 [INFO] Starting Monte Carlo
+2025-12-22 21:46:31 [INFO] Phenotype3: Save pop_current.mat
+2025-12-22 21:46:31 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype3/pop_current.mat
+2025-12-22 21:46:31 [INFO] Phenotype4: Monte Carlo (elite=false)
+2025-12-22 21:46:31 [INFO] Starting Monte Carlo
+2025-12-22 21:46:37 [INFO] Phenotype4: Save pop_current.mat
+2025-12-22 21:46:37 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype4/pop_current.mat
+2025-12-22 21:46:37 [INFO] Phenotype5: Monte Carlo (elite=false)
+2025-12-22 21:46:37 [INFO] Starting Monte Carlo
+2025-12-22 21:46:44 [INFO] Phenotype5: Save pop_current.mat
+2025-12-22 21:46:44 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype5/pop_current.mat
+2025-12-22 21:46:44 [INFO] Phenotype6: Monte Carlo (elite=false)
+2025-12-22 21:46:44 [INFO] Starting Monte Carlo
+2025-12-22 21:46:51 [INFO] Phenotype6: Save pop_current.mat
+2025-12-22 21:46:51 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype6/pop_current.mat
+2025-12-22 21:46:51 [INFO] Phenotype7: Monte Carlo (elite=false)
+2025-12-22 21:46:51 [INFO] Starting Monte Carlo
+2025-12-22 21:46:57 [INFO] Phenotype7: Save pop_current.mat
+2025-12-22 21:46:57 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype7/pop_current.mat
+2025-12-22 21:46:57 [INFO] Phenotype8: Monte Carlo (elite=false)
+2025-12-22 21:46:57 [INFO] Starting Monte Carlo
+2025-12-22 21:47:04 [INFO] Phenotype8: Save pop_current.mat
+2025-12-22 21:47:04 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype8/pop_current.mat
+2025-12-22 21:47:04 [INFO] Phenotype9: Monte Carlo (elite=false)
+2025-12-22 21:47:04 [INFO] Starting Monte Carlo
+2025-12-22 21:47:10 [INFO] Phenotype9: Save pop_current.mat
+2025-12-22 21:47:10 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype9/pop_current.mat
+2025-12-22 21:47:10 [INFO] Phenotype10: Monte Carlo (elite=false)
+2025-12-22 21:47:10 [INFO] Starting Monte Carlo
+2025-12-22 21:47:17 [INFO] Phenotype10: Save pop_current.mat
+2025-12-22 21:47:17 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype10/pop_current.mat
+2025-12-22 21:47:17 [INFO] Phenotype11: Monte Carlo (elite=false)
+2025-12-22 21:47:17 [INFO] Starting Monte Carlo
+2025-12-22 21:47:23 [INFO] Phenotype11: Save pop_current.mat
+2025-12-22 21:47:23 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype11/pop_current.mat
+2025-12-22 21:47:23 [INFO] Phenotype12: Monte Carlo (elite=false)
+2025-12-22 21:47:23 [INFO] Starting Monte Carlo
+2025-12-22 21:47:30 [INFO] Phenotype12: Save pop_current.mat
+2025-12-22 21:47:30 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype12/pop_current.mat
+2025-12-22 21:47:30 [INFO] Phenotype13: Monte Carlo (elite=false)
+2025-12-22 21:47:30 [INFO] Starting Monte Carlo
+2025-12-22 21:47:36 [INFO] Phenotype13: Save pop_current.mat
+2025-12-22 21:47:36 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype13/pop_current.mat
+2025-12-22 21:47:36 [INFO] Phenotype14: Monte Carlo (elite=false)
+2025-12-22 21:47:36 [INFO] Starting Monte Carlo
+2025-12-22 21:47:43 [INFO] Phenotype14: Save pop_current.mat
+2025-12-22 21:47:43 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype14/pop_current.mat
+2025-12-22 21:47:43 [INFO] Phenotype15: Monte Carlo (elite=false)
+2025-12-22 21:47:43 [INFO] Starting Monte Carlo
+2025-12-22 21:47:49 [INFO] Phenotype15: Save pop_current.mat
+2025-12-22 21:47:49 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype15/pop_current.mat
+2025-12-22 21:47:49 [INFO] Phenotype16: Monte Carlo (elite=false)
+2025-12-22 21:47:49 [INFO] Starting Monte Carlo
+2025-12-22 21:47:56 [INFO] Phenotype16: Save pop_current.mat
+2025-12-22 21:47:56 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype16/pop_current.mat
+2025-12-22 21:47:56 [INFO] Phenotype17: Monte Carlo (elite=false)
+2025-12-22 21:47:56 [INFO] Starting Monte Carlo
+2025-12-22 21:48:03 [INFO] Phenotype17: Save pop_current.mat
+2025-12-22 21:48:03 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype17/pop_current.mat
+2025-12-22 21:48:03 [INFO] Phenotype18: Monte Carlo (elite=false)
+2025-12-22 21:48:03 [INFO] Starting Monte Carlo
+2025-12-22 21:48:10 [INFO] Phenotype18: Save pop_current.mat
+2025-12-22 21:48:10 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype18/pop_current.mat
+2025-12-22 21:48:10 [INFO] Phenotype19: Monte Carlo (elite=false)
+2025-12-22 21:48:10 [INFO] Starting Monte Carlo
+2025-12-22 21:48:17 [INFO] Phenotype19: Save pop_current.mat
+2025-12-22 21:48:17 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype19/pop_current.mat
+2025-12-22 21:48:17 [INFO] Phenotype20: Monte Carlo (elite=false)
+2025-12-22 21:48:17 [INFO] Starting Monte Carlo
+2025-12-22 21:48:24 [INFO] Phenotype20: Save pop_current.mat
+2025-12-22 21:48:24 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype20/pop_current.mat
+2025-12-22 21:48:24 [INFO] Phenotype21: Monte Carlo (elite=false)
+2025-12-22 21:48:24 [INFO] Starting Monte Carlo
+2025-12-22 21:48:31 [INFO] Phenotype21: Save pop_current.mat
+2025-12-22 21:48:31 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype21/pop_current.mat
+2025-12-22 21:48:31 [INFO] Phenotype22: Monte Carlo (elite=false)
+2025-12-22 21:48:31 [INFO] Starting Monte Carlo
+2025-12-22 21:48:38 [INFO] Phenotype22: Save pop_current.mat
+2025-12-22 21:48:38 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype22/pop_current.mat
+2025-12-22 21:48:38 [INFO] Phenotype23: Monte Carlo (elite=false)
+2025-12-22 21:48:38 [INFO] Starting Monte Carlo
+2025-12-22 21:48:45 [INFO] Phenotype23: Save pop_current.mat
+2025-12-22 21:48:45 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype23/pop_current.mat
+2025-12-22 21:48:45 [INFO] Phenotype24: Monte Carlo (elite=false)
+2025-12-22 21:48:45 [INFO] Starting Monte Carlo
+2025-12-22 21:48:52 [INFO] Phenotype24: Save pop_current.mat
+2025-12-22 21:48:52 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype24/pop_current.mat
+2025-12-22 21:48:52 [INFO] Phenotype25: Monte Carlo (elite=false)
+2025-12-22 21:48:52 [INFO] Starting Monte Carlo
+2025-12-22 21:48:59 [INFO] Phenotype25: Save pop_current.mat
+2025-12-22 21:48:59 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype25/pop_current.mat
+2025-12-22 21:48:59 [INFO] Phenotype26: Monte Carlo (elite=false)
+2025-12-22 21:48:59 [INFO] Starting Monte Carlo
+2025-12-22 21:49:06 [INFO] Phenotype26: Save pop_current.mat
+2025-12-22 21:49:06 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype26/pop_current.mat
+2025-12-22 21:49:06 [INFO] Phenotype27: Monte Carlo (elite=false)
+2025-12-22 21:49:06 [INFO] Starting Monte Carlo
+2025-12-22 21:49:13 [INFO] Phenotype27: Save pop_current.mat
+2025-12-22 21:49:13 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype27/pop_current.mat
+2025-12-22 21:49:13 [INFO] Phenotype28: Monte Carlo (elite=false)
+2025-12-22 21:49:13 [INFO] Starting Monte Carlo
+2025-12-22 21:49:20 [INFO] Phenotype28: Save pop_current.mat
+2025-12-22 21:49:20 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype28/pop_current.mat
+2025-12-22 21:49:20 [INFO] Phenotype29: Monte Carlo (elite=false)
+2025-12-22 21:49:20 [INFO] Starting Monte Carlo
+2025-12-22 21:49:26 [INFO] Phenotype29: Monte Carlo FAILED: CompositeException(Any[TaskFailedException(Task (failed) @0x00007f43f48a8010), TaskFailedException(Task (failed) @0x00007f43f48a8b50), TaskFailedException(Task (failed) @0x00007f43f48a8d30), TaskFailedException(Task (failed) @0x00007f43f48a91e0), TaskFailedException(Task (failed) @0x00007f43f48a9780)])
+2025-12-22 21:49:26 [INFO] MC stacktrace: Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing}(0x00007f44781d0588), Ptr{Nothing}(0x00007f44781d09dc), Ptr{Nothing}(0x00007f44781cfa3c), Ptr{Nothing}(0x00007f44781cfaad), Ptr{Nothing}(0x00007f4478181291), Ptr{Nothing}(0x00007f447818baac), Ptr{Nothing}(0x00007f4478184293), Ptr{Nothing}(0x00007f4478187fc7), Ptr{Nothing}(0x00007f45a4876444), Ptr{Nothing}(0x00007f45a4875d34), Ptr{Nothing}(0x00007f45a4876a23), Ptr{Nothing}(0x00007f45a4877c62), Base.InterpreterIP in top-level CodeInfo for Main at statement 8, Ptr{Nothing}(0x00007f45a4895742), Ptr{Nothing}(0x00007f45a4895bf1), Ptr{Nothing}(0x00007f45a48964f5), Ptr{Nothing}(0x00007f45a4896b31), Ptr{Nothing}(0x00007f4593197782), Ptr{Nothing}(0x00007f459382e3ef), Ptr{Nothing}(0x00007f4591d8755a), Ptr{Nothing}(0x00007f4591d8837b), Ptr{Nothing}(0x00007f4593454493), Ptr{Nothing}(0x00007f4593800235), Ptr{Nothing}(0x00007f4592ab3283), Ptr{Nothing}(0x00007f45a48bc59e), Ptr{Nothing}(0x00007f45a48bd279), Ptr{Nothing}(0x0000000000401088), Ptr{Nothing}(0x00007f45a542a1c9), Ptr{Nothing}(0x00007f45a542a28a), Ptr{Nothing}(0x00000000004010b8)]
+2025-12-22 21:49:26 [INFO] Phenotype30: Monte Carlo (elite=false)
+2025-12-22 21:49:26 [INFO] Starting Monte Carlo
+2025-12-22 21:49:33 [INFO] Phenotype30: Save pop_current.mat
+2025-12-22 21:49:33 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype30/pop_current.mat
+2025-12-22 21:49:33 [INFO] Phenotype31: Monte Carlo (elite=false)
+2025-12-22 21:49:33 [INFO] Starting Monte Carlo
+2025-12-22 21:49:41 [INFO] Phenotype31: Save pop_current.mat
+2025-12-22 21:49:41 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype31/pop_current.mat
+2025-12-22 21:49:41 [INFO] Phenotype32: Monte Carlo (elite=false)
+2025-12-22 21:49:41 [INFO] Starting Monte Carlo
+2025-12-22 21:49:47 [INFO] Phenotype32: Save pop_current.mat
+2025-12-22 21:49:47 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype32/pop_current.mat
+2025-12-22 21:49:47 [INFO] Phenotype33: Monte Carlo (elite=false)
+2025-12-22 21:49:47 [INFO] Starting Monte Carlo
+2025-12-22 21:49:54 [INFO] Phenotype33: Save pop_current.mat
+2025-12-22 21:49:54 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype33/pop_current.mat
+2025-12-22 21:49:54 [INFO] Phenotype34: Monte Carlo (elite=false)
+2025-12-22 21:49:54 [INFO] Starting Monte Carlo
+2025-12-22 21:50:01 [INFO] Phenotype34: Save pop_current.mat
+2025-12-22 21:50:01 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype34/pop_current.mat
+2025-12-22 21:50:01 [INFO] Phenotype35: Monte Carlo (elite=false)
+2025-12-22 21:50:01 [INFO] Starting Monte Carlo
+2025-12-22 21:50:08 [INFO] Phenotype35: Save pop_current.mat
+2025-12-22 21:50:08 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype35/pop_current.mat
+2025-12-22 21:50:08 [INFO] Phenotype36: Monte Carlo (elite=false)
+2025-12-22 21:50:08 [INFO] Starting Monte Carlo
+2025-12-22 21:50:15 [INFO] Phenotype36: Save pop_current.mat
+2025-12-22 21:50:15 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype36/pop_current.mat
+2025-12-22 21:50:15 [INFO] Phenotype37: Monte Carlo (elite=false)
+2025-12-22 21:50:15 [INFO] Starting Monte Carlo
+2025-12-22 21:50:22 [INFO] Phenotype37: Save pop_current.mat
+2025-12-22 21:50:22 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype37/pop_current.mat
+2025-12-22 21:50:22 [INFO] Phenotype38: Monte Carlo (elite=false)
+2025-12-22 21:50:22 [INFO] Starting Monte Carlo
+2025-12-22 21:50:29 [INFO] Phenotype38: Save pop_current.mat
+2025-12-22 21:50:29 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype38/pop_current.mat
+2025-12-22 21:50:29 [INFO] Phenotype39: Monte Carlo (elite=false)
+2025-12-22 21:50:29 [INFO] Starting Monte Carlo
+2025-12-22 21:50:36 [INFO] Phenotype39: Save pop_current.mat
+2025-12-22 21:50:36 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype39/pop_current.mat
+2025-12-22 21:50:36 [INFO] Phenotype40: Monte Carlo (elite=false)
+2025-12-22 21:50:36 [INFO] Starting Monte Carlo
+2025-12-22 21:50:43 [INFO] Phenotype40: Save pop_current.mat
+2025-12-22 21:50:43 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype40/pop_current.mat
+2025-12-22 21:50:43 [INFO] Phenotype41: Monte Carlo (elite=false)
+2025-12-22 21:50:43 [INFO] Starting Monte Carlo
+2025-12-22 21:50:51 [INFO] Phenotype41: Save pop_current.mat
+2025-12-22 21:50:51 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype41/pop_current.mat
+2025-12-22 21:50:51 [INFO] Phenotype42: Monte Carlo (elite=false)
+2025-12-22 21:50:51 [INFO] Starting Monte Carlo
+2025-12-22 21:50:58 [INFO] Phenotype42: Save pop_current.mat
+2025-12-22 21:50:58 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype42/pop_current.mat
+2025-12-22 21:50:58 [INFO] Phenotype43: Monte Carlo (elite=false)
+2025-12-22 21:50:58 [INFO] Starting Monte Carlo
+2025-12-22 21:51:05 [INFO] Phenotype43: Save pop_current.mat
+2025-12-22 21:51:05 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype43/pop_current.mat
+2025-12-22 21:51:05 [INFO] Phenotype44: Monte Carlo (elite=false)
+2025-12-22 21:51:05 [INFO] Starting Monte Carlo
+2025-12-22 21:51:12 [INFO] Phenotype44: Save pop_current.mat
+2025-12-22 21:51:12 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype44/pop_current.mat
+2025-12-22 21:51:12 [INFO] Phenotype45: Monte Carlo (elite=false)
+2025-12-22 21:51:12 [INFO] Starting Monte Carlo
+2025-12-22 21:51:18 [INFO] Phenotype45: Save pop_current.mat
+2025-12-22 21:51:18 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype45/pop_current.mat
+2025-12-22 21:51:18 [INFO] Phenotype46: Monte Carlo (elite=false)
+2025-12-22 21:51:18 [INFO] Starting Monte Carlo
+2025-12-22 21:51:25 [INFO] Phenotype46: Save pop_current.mat
+2025-12-22 21:51:25 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype46/pop_current.mat
+2025-12-22 21:51:25 [INFO] Phenotype47: Monte Carlo (elite=false)
+2025-12-22 21:51:25 [INFO] Starting Monte Carlo
+2025-12-22 21:51:32 [INFO] Phenotype47: Save pop_current.mat
+2025-12-22 21:51:32 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype47/pop_current.mat
+2025-12-22 21:51:32 [INFO] Phenotype48: Monte Carlo (elite=false)
+2025-12-22 21:51:32 [INFO] Starting Monte Carlo
+2025-12-22 21:51:39 [INFO] Phenotype48: Save pop_current.mat
+2025-12-22 21:51:39 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype48/pop_current.mat
+2025-12-22 21:51:39 [INFO] Phenotype49: Monte Carlo (elite=false)
+2025-12-22 21:51:39 [INFO] Starting Monte Carlo
+2025-12-22 21:51:46 [INFO] Phenotype49: Save pop_current.mat
+2025-12-22 21:51:46 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype49/pop_current.mat
+2025-12-22 21:51:46 [INFO] Phenotype50: Monte Carlo (elite=false)
+2025-12-22 21:51:46 [INFO] Starting Monte Carlo
+2025-12-22 21:51:53 [INFO] Phenotype50: Save pop_current.mat
+2025-12-22 21:51:53 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype50/pop_current.mat
+2025-12-22 21:51:53 [INFO] Phenotype51: Monte Carlo (elite=false)
+2025-12-22 21:51:53 [INFO] Starting Monte Carlo
+2025-12-22 21:51:53 [INFO] Phenotype51: Monte Carlo FAILED: CompositeException(Any[TaskFailedException(Task (failed) @0x00007f43f4674010), TaskFailedException(Task (failed) @0x00007f43f4674100), TaskFailedException(Task (failed) @0x00007f43f46741f0), TaskFailedException(Task (failed) @0x00007f43f46742e0), TaskFailedException(Task (failed) @0x00007f43f46743d0), TaskFailedException(Task (failed) @0x00007f43f46744c0), TaskFailedException(Task (failed) @0x00007f43f46745b0), TaskFailedException(Task (failed) @0x00007f43f46746a0), TaskFailedException(Task (failed) @0x00007f43f4674790), TaskFailedException(Task (failed) @0x00007f43f4674880), TaskFailedException(Task (failed) @0x00007f43f4674970), TaskFailedException(Task (failed) @0x00007f43f4674a60), TaskFailedException(Task (failed) @0x00007f43f4674b50), TaskFailedException(Task (failed) @0x00007f43f4674c40), TaskFailedException(Task (failed) @0x00007f43f4674d30), TaskFailedException(Task (failed) @0x00007f43f4674e20), TaskFailedException(Task (failed) @0x00007f43f4674f10), TaskFailedException(Task (failed) @0x00007f43f4675000), TaskFailedException(Task (failed) @0x00007f43f46750f0), TaskFailedException(Task (failed) @0x00007f43f46751e0), TaskFailedException(Task (failed) @0x00007f43f46752d0), TaskFailedException(Task (failed) @0x00007f43f46753c0), TaskFailedException(Task (failed) @0x00007f43f46754b0), TaskFailedException(Task (failed) @0x00007f43f46755a0), TaskFailedException(Task (failed) @0x00007f43f4675780), TaskFailedException(Task (failed) @0x00007f43f4675870), TaskFailedException(Task (failed) @0x00007f43f4675960), TaskFailedException(Task (failed) @0x00007f43f4675a50)])
+2025-12-22 21:51:53 [INFO] MC stacktrace: Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing}(0x00007f44781d0588), Ptr{Nothing}(0x00007f44781d09dc), Ptr{Nothing}(0x00007f44781cfa3c), Ptr{Nothing}(0x00007f44781cfaad), Ptr{Nothing}(0x00007f4478181291), Ptr{Nothing}(0x00007f447818baac), Ptr{Nothing}(0x00007f4478184293), Ptr{Nothing}(0x00007f4478187fc7), Ptr{Nothing}(0x00007f45a4876444), Ptr{Nothing}(0x00007f45a4875d34), Ptr{Nothing}(0x00007f45a4876a23), Ptr{Nothing}(0x00007f45a4877c62), Base.InterpreterIP in top-level CodeInfo for Main at statement 8, Ptr{Nothing}(0x00007f45a4895742), Ptr{Nothing}(0x00007f45a4895bf1), Ptr{Nothing}(0x00007f45a48964f5), Ptr{Nothing}(0x00007f45a4896b31), Ptr{Nothing}(0x00007f4593197782), Ptr{Nothing}(0x00007f459382e3ef), Ptr{Nothing}(0x00007f4591d8755a), Ptr{Nothing}(0x00007f4591d8837b), Ptr{Nothing}(0x00007f4593454493), Ptr{Nothing}(0x00007f4593800235), Ptr{Nothing}(0x00007f4592ab3283), Ptr{Nothing}(0x00007f45a48bc59e), Ptr{Nothing}(0x00007f45a48bd279), Ptr{Nothing}(0x0000000000401088), Ptr{Nothing}(0x00007f45a542a1c9), Ptr{Nothing}(0x00007f45a542a28a), Ptr{Nothing}(0x00000000004010b8)]
+2025-12-22 21:51:53 [INFO] Phenotype52: Monte Carlo (elite=false)
+2025-12-22 21:51:53 [INFO] Starting Monte Carlo
+2025-12-22 21:52:00 [INFO] Phenotype52: Save pop_current.mat
+2025-12-22 21:52:00 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype52/pop_current.mat
+2025-12-22 21:52:00 [INFO] Phenotype53: Monte Carlo (elite=false)
+2025-12-22 21:52:00 [INFO] Starting Monte Carlo
+2025-12-22 21:52:07 [INFO] Phenotype53: Save pop_current.mat
+2025-12-22 21:52:07 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype53/pop_current.mat
+2025-12-22 21:52:07 [INFO] Phenotype54: Monte Carlo (elite=false)
+2025-12-22 21:52:07 [INFO] Starting Monte Carlo
+2025-12-22 21:52:14 [INFO] Phenotype54: Save pop_current.mat
+2025-12-22 21:52:14 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype54/pop_current.mat
+2025-12-22 21:52:14 [INFO] Phenotype55: Monte Carlo (elite=false)
+2025-12-22 21:52:14 [INFO] Starting Monte Carlo
+2025-12-22 21:52:21 [INFO] Phenotype55: Save pop_current.mat
+2025-12-22 21:52:21 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype55/pop_current.mat
+2025-12-22 21:52:21 [INFO] Phenotype56: Monte Carlo (elite=false)
+2025-12-22 21:52:21 [INFO] Starting Monte Carlo
+2025-12-22 21:52:28 [INFO] Phenotype56: Save pop_current.mat
+2025-12-22 21:52:28 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype56/pop_current.mat
+2025-12-22 21:52:28 [INFO] Phenotype57: Monte Carlo (elite=false)
+2025-12-22 21:52:28 [INFO] Starting Monte Carlo
+2025-12-22 21:52:35 [INFO] Phenotype57: Save pop_current.mat
+2025-12-22 21:52:35 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype57/pop_current.mat
+2025-12-22 21:52:35 [INFO] Phenotype58: Monte Carlo (elite=false)
+2025-12-22 21:52:35 [INFO] Starting Monte Carlo
+2025-12-22 21:52:42 [INFO] Phenotype58: Save pop_current.mat
+2025-12-22 21:52:42 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype58/pop_current.mat
+2025-12-22 21:52:42 [INFO] Phenotype59: Monte Carlo (elite=false)
+2025-12-22 21:52:42 [INFO] Starting Monte Carlo
+2025-12-22 21:52:49 [INFO] Phenotype59: Save pop_current.mat
+2025-12-22 21:52:49 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype59/pop_current.mat
+2025-12-22 21:52:49 [INFO] Phenotype60: Monte Carlo (elite=false)
+2025-12-22 21:52:49 [INFO] Starting Monte Carlo
+2025-12-22 21:52:56 [INFO] Phenotype60: Save pop_current.mat
+2025-12-22 21:52:56 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype60/pop_current.mat
+2025-12-22 21:52:56 [INFO] Phenotype61: Monte Carlo (elite=false)
+2025-12-22 21:52:56 [INFO] Starting Monte Carlo
+2025-12-22 21:53:03 [INFO] Phenotype61: Save pop_current.mat
+2025-12-22 21:53:03 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype61/pop_current.mat
+2025-12-22 21:53:03 [INFO] Phenotype62: Monte Carlo (elite=false)
+2025-12-22 21:53:03 [INFO] Starting Monte Carlo
+2025-12-22 21:53:10 [INFO] Phenotype62: Save pop_current.mat
+2025-12-22 21:53:10 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype62/pop_current.mat
+2025-12-22 21:53:10 [INFO] Phenotype63: Monte Carlo (elite=false)
+2025-12-22 21:53:10 [INFO] Starting Monte Carlo
+2025-12-22 21:53:17 [INFO] Phenotype63: Save pop_current.mat
+2025-12-22 21:53:17 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype63/pop_current.mat
+2025-12-22 21:53:17 [INFO] Phenotype64: Monte Carlo (elite=false)
+2025-12-22 21:53:17 [INFO] Starting Monte Carlo
+2025-12-22 21:53:24 [INFO] Phenotype64: Save pop_current.mat
+2025-12-22 21:53:24 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype64/pop_current.mat
+2025-12-22 21:53:24 [INFO] Phenotype65: Monte Carlo (elite=false)
+2025-12-22 21:53:24 [INFO] Starting Monte Carlo
+2025-12-22 21:53:31 [INFO] Phenotype65: Save pop_current.mat
+2025-12-22 21:53:31 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype65/pop_current.mat
+2025-12-22 21:53:31 [INFO] Phenotype66: Monte Carlo (elite=false)
+2025-12-22 21:53:31 [INFO] Starting Monte Carlo
+2025-12-22 21:53:38 [INFO] Phenotype66: Save pop_current.mat
+2025-12-22 21:53:38 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype66/pop_current.mat
+2025-12-22 21:53:38 [INFO] Phenotype67: Monte Carlo (elite=false)
+2025-12-22 21:53:38 [INFO] Starting Monte Carlo
+2025-12-22 21:53:45 [INFO] Phenotype67: Save pop_current.mat
+2025-12-22 21:53:45 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype67/pop_current.mat
+2025-12-22 21:53:45 [INFO] Phenotype68: Monte Carlo (elite=false)
+2025-12-22 21:53:45 [INFO] Starting Monte Carlo
+2025-12-22 21:53:52 [INFO] Phenotype68: Save pop_current.mat
+2025-12-22 21:53:52 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype68/pop_current.mat
+2025-12-22 21:53:52 [INFO] Phenotype69: Monte Carlo (elite=false)
+2025-12-22 21:53:52 [INFO] Starting Monte Carlo
+2025-12-22 21:53:59 [INFO] Phenotype69: Save pop_current.mat
+2025-12-22 21:53:59 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype69/pop_current.mat
+2025-12-22 21:53:59 [INFO] Phenotype70: Monte Carlo (elite=false)
+2025-12-22 21:53:59 [INFO] Starting Monte Carlo
+2025-12-22 21:54:06 [INFO] Phenotype70: Save pop_current.mat
+2025-12-22 21:54:06 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype70/pop_current.mat
+2025-12-22 21:54:06 [INFO] Phenotype71: Monte Carlo (elite=false)
+2025-12-22 21:54:06 [INFO] Starting Monte Carlo
+2025-12-22 21:54:13 [INFO] Phenotype71: Save pop_current.mat
+2025-12-22 21:54:13 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype71/pop_current.mat
+2025-12-22 21:54:13 [INFO] Phenotype72: Monte Carlo (elite=false)
+2025-12-22 21:54:13 [INFO] Starting Monte Carlo
+2025-12-22 21:54:20 [INFO] Phenotype72: Save pop_current.mat
+2025-12-22 21:54:20 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype72/pop_current.mat
+2025-12-22 21:54:20 [INFO] Phenotype73: Monte Carlo (elite=false)
+2025-12-22 21:54:20 [INFO] Starting Monte Carlo
+2025-12-22 21:54:27 [INFO] Phenotype73: Save pop_current.mat
+2025-12-22 21:54:27 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype73/pop_current.mat
+2025-12-22 21:54:27 [INFO] Phenotype74: Monte Carlo (elite=false)
+2025-12-22 21:54:27 [INFO] Starting Monte Carlo
+2025-12-22 21:54:34 [INFO] Phenotype74: Save pop_current.mat
+2025-12-22 21:54:34 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype74/pop_current.mat
+2025-12-22 21:54:34 [INFO] Phenotype75: Monte Carlo (elite=false)
+2025-12-22 21:54:34 [INFO] Starting Monte Carlo
+2025-12-22 21:54:41 [INFO] Phenotype75: Save pop_current.mat
+2025-12-22 21:54:41 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype75/pop_current.mat
+2025-12-22 21:54:41 [INFO] Phenotype76: Monte Carlo (elite=false)
+2025-12-22 21:54:41 [INFO] Starting Monte Carlo
+2025-12-22 21:54:41 [INFO] Phenotype76: Monte Carlo FAILED: CompositeException(Any[TaskFailedException(Task (failed) @0x00007f44187bc010), TaskFailedException(Task (failed) @0x00007f44187bc100), TaskFailedException(Task (failed) @0x00007f44187bc1f0), TaskFailedException(Task (failed) @0x00007f44187bc2e0), TaskFailedException(Task (failed) @0x00007f44187bc3d0), TaskFailedException(Task (failed) @0x00007f44187bc4c0), TaskFailedException(Task (failed) @0x00007f44187bc5b0), TaskFailedException(Task (failed) @0x00007f44187bc6a0), TaskFailedException(Task (failed) @0x00007f44187bc790), TaskFailedException(Task (failed) @0x00007f44187bc880), TaskFailedException(Task (failed) @0x00007f44187bc970), TaskFailedException(Task (failed) @0x00007f44187bca60), TaskFailedException(Task (failed) @0x00007f44187bcb50), TaskFailedException(Task (failed) @0x00007f44187bcd30), TaskFailedException(Task (failed) @0x00007f44187bce20), TaskFailedException(Task (failed) @0x00007f44187bcf10), TaskFailedException(Task (failed) @0x00007f44187bd000), TaskFailedException(Task (failed) @0x00007f44187bd0f0), TaskFailedException(Task (failed) @0x00007f44187bd1e0), TaskFailedException(Task (failed) @0x00007f44187bd2d0), TaskFailedException(Task (failed) @0x00007f44187bd3c0), TaskFailedException(Task (failed) @0x00007f44187bd4b0), TaskFailedException(Task (failed) @0x00007f44187bd5a0), TaskFailedException(Task (failed) @0x00007f44187bd690), TaskFailedException(Task (failed) @0x00007f44187bd780), TaskFailedException(Task (failed) @0x00007f44187bd870), TaskFailedException(Task (failed) @0x00007f44187bd960), TaskFailedException(Task (failed) @0x00007f44187bda50)])
+2025-12-22 21:54:41 [INFO] MC stacktrace: Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing}(0x00007f44781d0588), Ptr{Nothing}(0x00007f44781d09dc), Ptr{Nothing}(0x00007f44781cfa3c), Ptr{Nothing}(0x00007f44781cfaad), Ptr{Nothing}(0x00007f4478181291), Ptr{Nothing}(0x00007f447818baac), Ptr{Nothing}(0x00007f4478184293), Ptr{Nothing}(0x00007f4478187fc7), Ptr{Nothing}(0x00007f45a4876444), Ptr{Nothing}(0x00007f45a4875d34), Ptr{Nothing}(0x00007f45a4876a23), Ptr{Nothing}(0x00007f45a4877c62), Base.InterpreterIP in top-level CodeInfo for Main at statement 8, Ptr{Nothing}(0x00007f45a4895742), Ptr{Nothing}(0x00007f45a4895bf1), Ptr{Nothing}(0x00007f45a48964f5), Ptr{Nothing}(0x00007f45a4896b31), Ptr{Nothing}(0x00007f4593197782), Ptr{Nothing}(0x00007f459382e3ef), Ptr{Nothing}(0x00007f4591d8755a), Ptr{Nothing}(0x00007f4591d8837b), Ptr{Nothing}(0x00007f4593454493), Ptr{Nothing}(0x00007f4593800235), Ptr{Nothing}(0x00007f4592ab3283), Ptr{Nothing}(0x00007f45a48bc59e), Ptr{Nothing}(0x00007f45a48bd279), Ptr{Nothing}(0x0000000000401088), Ptr{Nothing}(0x00007f45a542a1c9), Ptr{Nothing}(0x00007f45a542a28a), Ptr{Nothing}(0x00000000004010b8)]
+2025-12-22 21:54:41 [INFO] Phenotype77: Monte Carlo (elite=false)
+2025-12-22 21:54:41 [INFO] Starting Monte Carlo
+2025-12-22 21:54:48 [INFO] Phenotype77: Save pop_current.mat
+2025-12-22 21:54:48 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype77/pop_current.mat
+2025-12-22 21:54:48 [INFO] Phenotype78: Monte Carlo (elite=false)
+2025-12-22 21:54:48 [INFO] Starting Monte Carlo
+2025-12-22 21:54:55 [INFO] Phenotype78: Save pop_current.mat
+2025-12-22 21:54:55 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype78/pop_current.mat
+2025-12-22 21:54:55 [INFO] Phenotype79: Monte Carlo (elite=false)
+2025-12-22 21:54:55 [INFO] Starting Monte Carlo
+2025-12-22 21:55:02 [INFO] Phenotype79: Save pop_current.mat
+2025-12-22 21:55:02 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype79/pop_current.mat
+2025-12-22 21:55:02 [INFO] Phenotype80: Monte Carlo (elite=false)
+2025-12-22 21:55:02 [INFO] Starting Monte Carlo
+2025-12-22 21:55:09 [INFO] Phenotype80: Save pop_current.mat
+2025-12-22 21:55:09 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype80/pop_current.mat
+2025-12-22 21:55:09 [INFO] Phenotype81: Monte Carlo (elite=false)
+2025-12-22 21:55:09 [INFO] Starting Monte Carlo
+2025-12-22 21:55:16 [INFO] Phenotype81: Save pop_current.mat
+2025-12-22 21:55:16 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype81/pop_current.mat
+2025-12-22 21:55:16 [INFO] Phenotype82: Monte Carlo (elite=false)
+2025-12-22 21:55:16 [INFO] Starting Monte Carlo
+2025-12-22 21:55:23 [INFO] Phenotype82: Save pop_current.mat
+2025-12-22 21:55:23 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype82/pop_current.mat
+2025-12-22 21:55:23 [INFO] Phenotype83: Monte Carlo (elite=false)
+2025-12-22 21:55:23 [INFO] Starting Monte Carlo
+2025-12-22 21:55:30 [INFO] Phenotype83: Save pop_current.mat
+2025-12-22 21:55:30 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype83/pop_current.mat
+2025-12-22 21:55:30 [INFO] Phenotype84: Monte Carlo (elite=false)
+2025-12-22 21:55:30 [INFO] Starting Monte Carlo
+2025-12-22 21:55:37 [INFO] Phenotype84: Save pop_current.mat
+2025-12-22 21:55:37 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype84/pop_current.mat
+2025-12-22 21:55:37 [INFO] Phenotype85: Monte Carlo (elite=false)
+2025-12-22 21:55:37 [INFO] Starting Monte Carlo
+2025-12-22 21:55:44 [INFO] Phenotype85: Save pop_current.mat
+2025-12-22 21:55:44 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype85/pop_current.mat
+2025-12-22 21:55:44 [INFO] Phenotype86: Monte Carlo (elite=false)
+2025-12-22 21:55:44 [INFO] Starting Monte Carlo
+2025-12-22 21:55:51 [INFO] Phenotype86: Save pop_current.mat
+2025-12-22 21:55:51 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype86/pop_current.mat
+2025-12-22 21:55:51 [INFO] Phenotype87: Monte Carlo (elite=false)
+2025-12-22 21:55:51 [INFO] Starting Monte Carlo
+2025-12-22 21:55:58 [INFO] Phenotype87: Save pop_current.mat
+2025-12-22 21:55:58 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype87/pop_current.mat
+2025-12-22 21:55:58 [INFO] Phenotype88: Monte Carlo (elite=false)
+2025-12-22 21:55:58 [INFO] Starting Monte Carlo
+2025-12-22 21:56:05 [INFO] Phenotype88: Save pop_current.mat
+2025-12-22 21:56:05 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype88/pop_current.mat
+2025-12-22 21:56:05 [INFO] Phenotype89: Monte Carlo (elite=false)
+2025-12-22 21:56:05 [INFO] Starting Monte Carlo
+2025-12-22 21:56:12 [INFO] Phenotype89: Save pop_current.mat
+2025-12-22 21:56:12 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype89/pop_current.mat
+2025-12-22 21:56:12 [INFO] Phenotype90: Monte Carlo (elite=false)
+2025-12-22 21:56:12 [INFO] Starting Monte Carlo
+2025-12-22 21:56:19 [INFO] Phenotype90: Save pop_current.mat
+2025-12-22 21:56:19 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype90/pop_current.mat
+2025-12-22 21:56:19 [INFO] Phenotype91: Monte Carlo (elite=false)
+2025-12-22 21:56:19 [INFO] Starting Monte Carlo
+2025-12-22 21:56:26 [INFO] Phenotype91: Save pop_current.mat
+2025-12-22 21:56:26 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype91/pop_current.mat
+2025-12-22 21:56:26 [INFO] Phenotype92: Monte Carlo (elite=false)
+2025-12-22 21:56:26 [INFO] Starting Monte Carlo
+2025-12-22 21:56:33 [INFO] Phenotype92: Save pop_current.mat
+2025-12-22 21:56:33 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype92/pop_current.mat
+2025-12-22 21:56:33 [INFO] Phenotype93: Monte Carlo (elite=false)
+2025-12-22 21:56:33 [INFO] Starting Monte Carlo
+2025-12-22 21:56:40 [INFO] Phenotype93: Save pop_current.mat
+2025-12-22 21:56:40 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype93/pop_current.mat
+2025-12-22 21:56:40 [INFO] Phenotype94: Monte Carlo (elite=false)
+2025-12-22 21:56:40 [INFO] Starting Monte Carlo
+2025-12-22 21:56:47 [INFO] Phenotype94: Save pop_current.mat
+2025-12-22 21:56:47 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype94/pop_current.mat
+2025-12-22 21:56:47 [INFO] Phenotype95: Monte Carlo (elite=false)
+2025-12-22 21:56:47 [INFO] Starting Monte Carlo
+2025-12-22 21:56:54 [INFO] Phenotype95: Save pop_current.mat
+2025-12-22 21:56:54 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype95/pop_current.mat
+2025-12-22 21:56:54 [INFO] Phenotype96: Monte Carlo (elite=false)
+2025-12-22 21:56:54 [INFO] Starting Monte Carlo
+2025-12-22 21:57:01 [INFO] Phenotype96: Save pop_current.mat
+2025-12-22 21:57:01 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype96/pop_current.mat
+2025-12-22 21:57:01 [INFO] Phenotype97: Monte Carlo (elite=false)
+2025-12-22 21:57:01 [INFO] Starting Monte Carlo
+2025-12-22 21:57:01 [INFO] Phenotype97: Monte Carlo FAILED: CompositeException(Any[TaskFailedException(Task (failed) @0x00007f43f319c010), TaskFailedException(Task (failed) @0x00007f43f319c100), TaskFailedException(Task (failed) @0x00007f43f319c1f0), TaskFailedException(Task (failed) @0x00007f43f319c2e0), TaskFailedException(Task (failed) @0x00007f43f319c3d0), TaskFailedException(Task (failed) @0x00007f43f319c4c0), TaskFailedException(Task (failed) @0x00007f43f319c6a0), TaskFailedException(Task (failed) @0x00007f43f319c790), TaskFailedException(Task (failed) @0x00007f43f319c880), TaskFailedException(Task (failed) @0x00007f43f319c970), TaskFailedException(Task (failed) @0x00007f43f319ca60), TaskFailedException(Task (failed) @0x00007f43f319cb50), TaskFailedException(Task (failed) @0x00007f43f319cc40), TaskFailedException(Task (failed) @0x00007f43f319cf10), TaskFailedException(Task (failed) @0x00007f43f319d000), TaskFailedException(Task (failed) @0x00007f43f319d0f0), TaskFailedException(Task (failed) @0x00007f43f319d1e0), TaskFailedException(Task (failed) @0x00007f43f319d2d0), TaskFailedException(Task (failed) @0x00007f43f319d3c0), TaskFailedException(Task (failed) @0x00007f43f319d4b0), TaskFailedException(Task (failed) @0x00007f43f319d5a0), TaskFailedException(Task (failed) @0x00007f43f319d690), TaskFailedException(Task (failed) @0x00007f43f319d780), TaskFailedException(Task (failed) @0x00007f43f319d870), TaskFailedException(Task (failed) @0x00007f43f319d960), TaskFailedException(Task (failed) @0x00007f43f319da50), TaskFailedException(Task (failed) @0x00007f43f319db40), TaskFailedException(Task (failed) @0x00007f43f319dc30)])
+2025-12-22 21:57:01 [INFO] MC stacktrace: Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing}(0x00007f44781d0588), Ptr{Nothing}(0x00007f44781d09dc), Ptr{Nothing}(0x00007f44781cfa3c), Ptr{Nothing}(0x00007f44781cfaad), Ptr{Nothing}(0x00007f4478181291), Ptr{Nothing}(0x00007f447818baac), Ptr{Nothing}(0x00007f4478184293), Ptr{Nothing}(0x00007f4478187fc7), Ptr{Nothing}(0x00007f45a4876444), Ptr{Nothing}(0x00007f45a4875d34), Ptr{Nothing}(0x00007f45a4876a23), Ptr{Nothing}(0x00007f45a4877c62), Base.InterpreterIP in top-level CodeInfo for Main at statement 8, Ptr{Nothing}(0x00007f45a4895742), Ptr{Nothing}(0x00007f45a4895bf1), Ptr{Nothing}(0x00007f45a48964f5), Ptr{Nothing}(0x00007f45a4896b31), Ptr{Nothing}(0x00007f4593197782), Ptr{Nothing}(0x00007f459382e3ef), Ptr{Nothing}(0x00007f4591d8755a), Ptr{Nothing}(0x00007f4591d8837b), Ptr{Nothing}(0x00007f4593454493), Ptr{Nothing}(0x00007f4593800235), Ptr{Nothing}(0x00007f4592ab3283), Ptr{Nothing}(0x00007f45a48bc59e), Ptr{Nothing}(0x00007f45a48bd279), Ptr{Nothing}(0x0000000000401088), Ptr{Nothing}(0x00007f45a542a1c9), Ptr{Nothing}(0x00007f45a542a28a), Ptr{Nothing}(0x00000000004010b8)]
+2025-12-22 21:57:01 [INFO] Phenotype98: Monte Carlo (elite=false)
+2025-12-22 21:57:01 [INFO] Starting Monte Carlo
+2025-12-22 21:57:01 [INFO] Phenotype98: Monte Carlo FAILED: CompositeException(Any[TaskFailedException(Task (failed) @0x00007f43f319dd20), TaskFailedException(Task (failed) @0x00007f43f319de10), TaskFailedException(Task (failed) @0x00007f43f319df00), TaskFailedException(Task (failed) @0x00007f43f319dff0), TaskFailedException(Task (failed) @0x00007f43f319e0e0), TaskFailedException(Task (failed) @0x00007f43f319e1d0), TaskFailedException(Task (failed) @0x00007f43f319e2c0), TaskFailedException(Task (failed) @0x00007f43f319e3b0), TaskFailedException(Task (failed) @0x00007f43f319e4a0), TaskFailedException(Task (failed) @0x00007f43f319e590), TaskFailedException(Task (failed) @0x00007f43f319e680), TaskFailedException(Task (failed) @0x00007f43f319e770), TaskFailedException(Task (failed) @0x00007f43f319e860), TaskFailedException(Task (failed) @0x00007f43f319e950), TaskFailedException(Task (failed) @0x00007f43f319ea40), TaskFailedException(Task (failed) @0x00007f43f319eb30), TaskFailedException(Task (failed) @0x00007f43f319ec20), TaskFailedException(Task (failed) @0x00007f43f319ed10), TaskFailedException(Task (failed) @0x00007f43f319ee00), TaskFailedException(Task (failed) @0x00007f43f319eef0), TaskFailedException(Task (failed) @0x00007f43f319efe0), TaskFailedException(Task (failed) @0x00007f43f319f0d0), TaskFailedException(Task (failed) @0x00007f43f319f1c0), TaskFailedException(Task (failed) @0x00007f43f319f2b0), TaskFailedException(Task (failed) @0x00007f43f319f3a0), TaskFailedException(Task (failed) @0x00007f43f319f490), TaskFailedException(Task (failed) @0x00007f43f319f580), TaskFailedException(Task (failed) @0x00007f43f319f670)])
+2025-12-22 21:57:01 [INFO] MC stacktrace: Union{Ptr{Nothing}, Base.InterpreterIP}[Ptr{Nothing}(0x00007f44781d0588), Ptr{Nothing}(0x00007f44781d09dc), Ptr{Nothing}(0x00007f44781cfa3c), Ptr{Nothing}(0x00007f44781cfaad), Ptr{Nothing}(0x00007f4478181291), Ptr{Nothing}(0x00007f447818baac), Ptr{Nothing}(0x00007f4478184293), Ptr{Nothing}(0x00007f4478187fc7), Ptr{Nothing}(0x00007f45a4876444), Ptr{Nothing}(0x00007f45a4875d34), Ptr{Nothing}(0x00007f45a4876a23), Ptr{Nothing}(0x00007f45a4877c62), Base.InterpreterIP in top-level CodeInfo for Main at statement 8, Ptr{Nothing}(0x00007f45a4895742), Ptr{Nothing}(0x00007f45a4895bf1), Ptr{Nothing}(0x00007f45a48964f5), Ptr{Nothing}(0x00007f45a4896b31), Ptr{Nothing}(0x00007f4593197782), Ptr{Nothing}(0x00007f459382e3ef), Ptr{Nothing}(0x00007f4591d8755a), Ptr{Nothing}(0x00007f4591d8837b), Ptr{Nothing}(0x00007f4593454493), Ptr{Nothing}(0x00007f4593800235), Ptr{Nothing}(0x00007f4592ab3283), Ptr{Nothing}(0x00007f45a48bc59e), Ptr{Nothing}(0x00007f45a48bd279), Ptr{Nothing}(0x0000000000401088), Ptr{Nothing}(0x00007f45a542a1c9), Ptr{Nothing}(0x00007f45a542a28a), Ptr{Nothing}(0x00000000004010b8)]
+2025-12-22 21:57:01 [INFO] Phenotype99: Monte Carlo (elite=false)
+2025-12-22 21:57:01 [INFO] Starting Monte Carlo
+2025-12-22 21:57:08 [INFO] Phenotype99: Save pop_current.mat
+2025-12-22 21:57:08 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype99/pop_current.mat
+2025-12-22 21:57:08 [INFO] Phenotype100: Monte Carlo (elite=false)
+2025-12-22 21:57:08 [INFO] Starting Monte Carlo
+2025-12-22 21:57:15 [INFO] Phenotype100: Save pop_current.mat
+2025-12-22 21:57:15 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype100/pop_current.mat
+2025-12-22 21:57:15 [INFO] Phenotype101: Monte Carlo (elite=false)
+2025-12-22 21:57:15 [INFO] Starting Monte Carlo
+2025-12-22 21:57:22 [INFO] Phenotype101: Save pop_current.mat
+2025-12-22 21:57:22 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype101/pop_current.mat
+2025-12-22 21:57:22 [INFO] Phenotype102: Monte Carlo (elite=false)
+2025-12-22 21:57:22 [INFO] Starting Monte Carlo
+2025-12-22 21:57:29 [INFO] Phenotype102: Save pop_current.mat
+2025-12-22 21:57:29 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype102/pop_current.mat
+2025-12-22 21:57:29 [INFO] Phenotype103: Monte Carlo (elite=false)
+2025-12-22 21:57:29 [INFO] Starting Monte Carlo
+2025-12-22 21:57:36 [INFO] Phenotype103: Save pop_current.mat
+2025-12-22 21:57:36 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype103/pop_current.mat
+2025-12-22 21:57:36 [INFO] Phenotype104: Monte Carlo (elite=false)
+2025-12-22 21:57:36 [INFO] Starting Monte Carlo
+2025-12-22 21:57:43 [INFO] Phenotype104: Save pop_current.mat
+2025-12-22 21:57:43 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype104/pop_current.mat
+2025-12-22 21:57:43 [INFO] Phenotype105: Monte Carlo (elite=false)
+2025-12-22 21:57:43 [INFO] Starting Monte Carlo
+2025-12-22 21:57:51 [INFO] Phenotype105: Save pop_current.mat
+2025-12-22 21:57:51 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype105/pop_current.mat
+2025-12-22 21:57:51 [INFO] Phenotype106: Monte Carlo (elite=false)
+2025-12-22 21:57:51 [INFO] Starting Monte Carlo
+2025-12-22 21:57:57 [INFO] Phenotype106: Save pop_current.mat
+2025-12-22 21:57:57 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype106/pop_current.mat
+2025-12-22 21:57:57 [INFO] Phenotype107: Monte Carlo (elite=false)
+2025-12-22 21:57:57 [INFO] Starting Monte Carlo
+2025-12-22 21:58:05 [INFO] Phenotype107: Save pop_current.mat
+2025-12-22 21:58:05 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype107/pop_current.mat
+2025-12-22 21:58:05 [INFO] Phenotype108: Monte Carlo (elite=false)
+2025-12-22 21:58:05 [INFO] Starting Monte Carlo
+2025-12-22 21:58:12 [INFO] Phenotype108: Save pop_current.mat
+2025-12-22 21:58:12 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype108/pop_current.mat
+2025-12-22 21:58:12 [INFO] Phenotype109: Monte Carlo (elite=false)
+2025-12-22 21:58:12 [INFO] Starting Monte Carlo
+2025-12-22 21:58:19 [INFO] Phenotype109: Save pop_current.mat
+2025-12-22 21:58:19 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype109/pop_current.mat
+2025-12-22 21:58:19 [INFO] Phenotype110: Monte Carlo (elite=false)
+2025-12-22 21:58:19 [INFO] Starting Monte Carlo
+2025-12-22 21:58:26 [INFO] Phenotype110: Save pop_current.mat
+2025-12-22 21:58:26 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype110/pop_current.mat
+2025-12-22 21:58:26 [INFO] Phenotype111: Monte Carlo (elite=false)
+2025-12-22 21:58:26 [INFO] Starting Monte Carlo
+2025-12-22 21:58:33 [INFO] Phenotype111: Save pop_current.mat
+2025-12-22 21:58:33 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype111/pop_current.mat
+2025-12-22 21:58:33 [INFO] Phenotype112: Monte Carlo (elite=false)
+2025-12-22 21:58:33 [INFO] Starting Monte Carlo
+2025-12-22 21:58:40 [INFO] Phenotype112: Save pop_current.mat
+2025-12-22 21:58:40 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype112/pop_current.mat
+2025-12-22 21:58:40 [INFO] Phenotype113: Monte Carlo (elite=false)
+2025-12-22 21:58:40 [INFO] Starting Monte Carlo
+2025-12-22 21:58:47 [INFO] Phenotype113: Save pop_current.mat
+2025-12-22 21:58:47 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype113/pop_current.mat
+2025-12-22 21:58:47 [INFO] Phenotype114: Monte Carlo (elite=false)
+2025-12-22 21:58:47 [INFO] Starting Monte Carlo
+2025-12-22 21:58:54 [INFO] Phenotype114: Save pop_current.mat
+2025-12-22 21:58:54 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype114/pop_current.mat
+2025-12-22 21:58:54 [INFO] Phenotype115: Monte Carlo (elite=false)
+2025-12-22 21:58:54 [INFO] Starting Monte Carlo
+2025-12-22 21:59:01 [INFO] Phenotype115: Save pop_current.mat
+2025-12-22 21:59:01 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype115/pop_current.mat
+2025-12-22 21:59:01 [INFO] Phenotype116: Monte Carlo (elite=false)
+2025-12-22 21:59:01 [INFO] Starting Monte Carlo
+2025-12-22 21:59:08 [INFO] Phenotype116: Save pop_current.mat
+2025-12-22 21:59:08 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype116/pop_current.mat
+2025-12-22 21:59:08 [INFO] Phenotype117: Monte Carlo (elite=false)
+2025-12-22 21:59:08 [INFO] Starting Monte Carlo
+2025-12-22 21:59:15 [INFO] Phenotype117: Save pop_current.mat
+2025-12-22 21:59:15 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype117/pop_current.mat
+2025-12-22 21:59:15 [INFO] Phenotype118: Monte Carlo (elite=false)
+2025-12-22 21:59:15 [INFO] Starting Monte Carlo
+2025-12-22 21:59:22 [INFO] Phenotype118: Save pop_current.mat
+2025-12-22 21:59:22 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype118/pop_current.mat
+2025-12-22 21:59:22 [INFO] Phenotype119: Monte Carlo (elite=false)
+2025-12-22 21:59:22 [INFO] Starting Monte Carlo
+2025-12-22 21:59:29 [INFO] Phenotype119: Save pop_current.mat
+2025-12-22 21:59:29 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype119/pop_current.mat
+2025-12-22 21:59:29 [INFO] Phenotype120: Monte Carlo (elite=false)
+2025-12-22 21:59:29 [INFO] Starting Monte Carlo
+2025-12-22 21:59:36 [INFO] Phenotype120: Save pop_current.mat
+2025-12-22 21:59:36 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype120/pop_current.mat
+2025-12-22 21:59:36 [INFO] Phenotype121: Monte Carlo (elite=false)
+2025-12-22 21:59:36 [INFO] Starting Monte Carlo
+2025-12-22 21:59:43 [INFO] Phenotype121: Save pop_current.mat
+2025-12-22 21:59:43 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype121/pop_current.mat
+2025-12-22 21:59:43 [INFO] Phenotype122: Monte Carlo (elite=false)
+2025-12-22 21:59:43 [INFO] Starting Monte Carlo
+2025-12-22 21:59:50 [INFO] Phenotype122: Save pop_current.mat
+2025-12-22 21:59:50 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype122/pop_current.mat
+2025-12-22 21:59:50 [INFO] Phenotype123: Monte Carlo (elite=false)
+2025-12-22 21:59:50 [INFO] Starting Monte Carlo
+2025-12-22 21:59:58 [INFO] Phenotype123: Save pop_current.mat
+2025-12-22 21:59:58 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype123/pop_current.mat
+2025-12-22 21:59:58 [INFO] Phenotype124: Monte Carlo (elite=false)
+2025-12-22 21:59:58 [INFO] Starting Monte Carlo
+2025-12-22 22:00:04 [INFO] Phenotype124: Save pop_current.mat
+2025-12-22 22:00:04 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype124/pop_current.mat
+2025-12-22 22:00:04 [INFO] Phenotype125: Monte Carlo (elite=false)
+2025-12-22 22:00:04 [INFO] Starting Monte Carlo
+2025-12-22 22:00:12 [INFO] Phenotype125: Save pop_current.mat
+2025-12-22 22:00:12 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype125/pop_current.mat
+2025-12-22 22:00:12 [INFO] Phenotype126: Monte Carlo (elite=false)
+2025-12-22 22:00:12 [INFO] Starting Monte Carlo
+2025-12-22 22:00:19 [INFO] Phenotype126: Save pop_current.mat
+2025-12-22 22:00:19 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype126/pop_current.mat
+2025-12-22 22:00:19 [INFO] Phenotype127: Monte Carlo (elite=false)
+2025-12-22 22:00:19 [INFO] Starting Monte Carlo
+2025-12-22 22:00:26 [INFO] Phenotype127: Save pop_current.mat
+2025-12-22 22:00:26 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype127/pop_current.mat
+2025-12-22 22:00:26 [INFO] Phenotype128: Monte Carlo (elite=false)
+2025-12-22 22:00:26 [INFO] Starting Monte Carlo
+2025-12-22 22:00:33 [INFO] Phenotype128: Save pop_current.mat
+2025-12-22 22:00:33 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype128/pop_current.mat
+2025-12-22 22:00:33 [INFO] Phenotype129: Monte Carlo (elite=false)
+2025-12-22 22:00:33 [INFO] Starting Monte Carlo
+2025-12-22 22:00:40 [INFO] Phenotype129: Save pop_current.mat
+2025-12-22 22:00:40 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype129/pop_current.mat
+2025-12-22 22:00:40 [INFO] Phenotype130: Monte Carlo (elite=false)
+2025-12-22 22:00:40 [INFO] Starting Monte Carlo
+2025-12-22 22:00:47 [INFO] Phenotype130: Save pop_current.mat
+2025-12-22 22:00:47 [INFO] Saving pop_current.mat -> /home/james/JuliaBetaBurstsGA/GA_data/Gen1/Phenotype130/pop_current.mat
+2025-12-22 22:00:47 [INFO] Running generation-level HMM in /home/james/JuliaBetaBurstsGA/GA_data/Gen1
