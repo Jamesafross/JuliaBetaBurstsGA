@@ -16,8 +16,9 @@ function make_population_from_data(restart_gen::Integer,pop_size::Integer)
         fitness_history  = Float64.(phen_json.fitness_history)
         generations      = Int(phen_json.generations)
         birth_generation = Int(phen_json.birth_generation)
+        elite = Bool(phen_json.elite)
 
-        ph = from_file_phenotype(chromosome, fitness_history, generations, birth_generation)
+        ph = from_file_phenotype(chromosome, fitness_history, generations, birth_generation, elite)
 
 
         push!(population, ph)
