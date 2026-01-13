@@ -34,7 +34,7 @@ function from_chromosome_phenotype(chromosome,birth_gen)
     )
 end
 
-function from_file_phenotype(chromosome,fitness_history,generations,birth_gen)
+function from_file_phenotype(chromosome,fitness_history,generations,birth_gen,elite::Bool)
 
 
     p = decode_params(chromosome)
@@ -47,6 +47,6 @@ function from_file_phenotype(chromosome,fitness_history,generations,birth_gen)
         fitness_history,
         generations,
         birth_gen,
-        false
+        elite
     )
 end

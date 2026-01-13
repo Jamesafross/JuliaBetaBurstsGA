@@ -73,14 +73,15 @@ function run_ga!(
             ph.elite = true
         end
 
+        log_info("Added (min) elites to next population")
+
         append!(next_population, elites_mean)
 
         for ph in elites_mean
             ph.elite = true
         end
 
-
-        log_info("Added $n_elites_total elites to next population")
+        log_info("Added  (mean) elites to next population")
 
         if length(elites_mean) > 1
             elite_offspring = make_children(elites_mean, gen, n_elite_offspring)

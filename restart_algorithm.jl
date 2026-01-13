@@ -1,6 +1,6 @@
 include("init.jl")
 
-restart_gen = 11;
+restart_gen = 242;
 
 function restart_ga!(
     pop_size,
@@ -11,13 +11,13 @@ function restart_ga!(
     restart_gen,
 )
 
-    # generate initial population
+    # generate initial populations
    
     population::Vector{Phenotype} = make_population_from_data(restart_gen-1,pop_size)
 
-    for gen in 1:num_generations
+    for gen in restart_gen:num_generations
 
-        log_info("Starting generation $gen")
+          log_info("Starting generation $gen")
 
         gen_dir = joinpath(project_root, "GA_data", "Gen$(gen)")
         mkpath(gen_dir)
@@ -49,8 +49,10 @@ function restart_ga!(
         # elites
         log_info("Selecting elites for generation $gen")
 
-        elites_min  = select_elites_min(population, n_elites_min)
-        elites_mean = select_elites_mean(population, n_elites_mean)
+        elites_mean, remainder_pop = select_elites_mean(population, n_elites_mean)
+
+        elites_min  = select_elites_min(remainder_pop, n_elites_min)
+       
 
         n_elites_total = length(elites_min) + length(elites_mean)
         log_info("Selected $(length(elites_min)) min-elites and $(length(elites_mean)) mean-elites (total $n_elites_total)")
@@ -67,6 +69,7 @@ function restart_ga!(
         # build next population
         log_info("Building next population for generation $(gen+1)")
         next_population = Phenotype[]
+        log_info("adding elites")
         sizehint!(next_population, pop_size)
 
         # add elites
@@ -75,14 +78,15 @@ function restart_ga!(
             ph.elite = true
         end
 
+        log_info("Added (min) elites to next population")
+
         append!(next_population, elites_mean)
 
         for ph in elites_mean
             ph.elite = true
         end
 
-
-        log_info("Added $n_elites_total elites to next population")
+        log_info("Added  (mean) elites to next population")
 
         if length(elites_mean) > 1
             elite_offspring = make_children(elites_mean, gen, n_elite_offspring)
